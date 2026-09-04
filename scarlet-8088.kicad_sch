@@ -12,9 +12,69 @@
 		(comment 1 "${COMMENT1}")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 62.23 39.37) (xy 54.61 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "016be28a-ded9-48eb-8659-ec418e0db199")
+	)
+	(wire
+		(pts
+			(xy 62.23 26.67) (xy 55.88 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33dd126c-bad4-464d-b365-31f8be38e8bd")
+	)
+	(wire
+		(pts
+			(xy 55.88 26.67) (xy 55.88 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d5a8390-f922-48ef-86d5-628301e533d4")
+	)
+	(wire
+		(pts
+			(xy 54.61 29.21) (xy 49.53 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43d297b5-2571-4adc-b30f-7b02636c2be0")
+	)
+	(wire
+		(pts
+			(xy 54.61 39.37) (xy 54.61 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4779ebea-7828-4c0d-bcf6-6ea93a3b929c")
+	)
+	(wire
+		(pts
+			(xy 55.88 21.59) (xy 49.53 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc916886-d1b9-4427-8862-5cf641f65062")
+	)
 	(sheet
-		(at 101.6 58.42)
-		(size 27.94 27.94)
+		(at 62.23 19.05)
+		(size 31.75 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -29,7 +89,7 @@
 		)
 		(uuid "5b0a69b8-537a-4e54-9053-3d6e1d6f1e22")
 		(property "Sheetname" "Power System"
-			(at 101.6 57.7084 0)
+			(at 62.23 18.3384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40,7 +100,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 101.6 86.9446 0)
+			(at 62.23 47.5746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -51,7 +111,7 @@
 			)
 		)
 		(pin "-12V" output
-			(at 101.6 60.96 180)
+			(at 62.23 21.59 180)
 			(uuid "15e8928d-4bb4-4554-97b0-8c474000ebb6")
 			(effects
 				(font
@@ -61,7 +121,7 @@
 			)
 		)
 		(pin "3.3V" output
-			(at 101.6 63.5 180)
+			(at 62.23 24.13 180)
 			(uuid "e7dfce9d-dd48-421c-8a83-34e3f595bcc7")
 			(effects
 				(font
@@ -70,8 +130,8 @@
 				(justify left)
 			)
 		)
-		(pin "5V" output
-			(at 101.6 66.04 180)
+		(pin "5V" input
+			(at 62.23 26.67 180)
 			(uuid "ce48e8e1-e17d-4c6f-ab12-edb3390a57aa")
 			(effects
 				(font
@@ -81,7 +141,7 @@
 			)
 		)
 		(pin "5VSB" input
-			(at 101.6 68.58 180)
+			(at 62.23 29.21 180)
 			(uuid "c2b4ccdf-0d66-495c-8b17-0d7903e2c1b6")
 			(effects
 				(font
@@ -91,7 +151,7 @@
 			)
 		)
 		(pin "12V" output
-			(at 101.6 71.12 180)
+			(at 62.23 31.75 180)
 			(uuid "adf946be-8fad-4ea2-9cb3-234168480930")
 			(effects
 				(font
@@ -101,7 +161,7 @@
 			)
 		)
 		(pin "PS_ON" input
-			(at 101.6 73.66 180)
+			(at 62.23 34.29 180)
 			(uuid "e1979713-4a0e-4596-a7a5-6cec7e1dc59f")
 			(effects
 				(font
@@ -110,9 +170,19 @@
 				(justify left)
 			)
 		)
-		(pin "PWR_OK" output
-			(at 101.6 76.2 180)
+		(pin "PWR_OK" input
+			(at 62.23 36.83 180)
 			(uuid "408edcb8-5f47-49ec-bc0b-2e56063466d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RSTBTN" output
+			(at 62.23 39.37 180)
+			(uuid "c4bd7b0e-4135-48b1-90af-86548ca3d4dd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -129,7 +199,7 @@
 		)
 	)
 	(sheet
-		(at 54.61 58.42)
+		(at 17.78 19.05)
 		(size 31.75 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -145,7 +215,7 @@
 		)
 		(uuid "dcc67d5a-c981-48b3-964a-2816653db93c")
 		(property "Sheetname" "Compute"
-			(at 54.61 57.7084 0)
+			(at 17.78 18.3384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -156,7 +226,7 @@
 			)
 		)
 		(property "Sheetfile" "cpu.kicad_sch"
-			(at 54.61 88.2146 0)
+			(at 17.78 48.8446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -167,7 +237,7 @@
 			)
 		)
 		(pin "5V" input
-			(at 86.36 60.96 0)
+			(at 49.53 21.59 0)
 			(uuid "c753e441-3bf8-4b39-ae9c-9daa58c83b85")
 			(effects
 				(font
@@ -177,8 +247,18 @@
 			)
 		)
 		(pin "{ADDRESS_BUS}" bidirectional
-			(at 86.36 64.77 0)
+			(at 49.53 25.4 0)
 			(uuid "e26fc318-e778-43ae-b6e7-5db7a15fbc09")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RSTBTN" input
+			(at 49.53 29.21 0)
+			(uuid "60a72192-16fd-4100-ba73-ce740a6c9188")
 			(effects
 				(font
 					(size 1.27 1.27)
