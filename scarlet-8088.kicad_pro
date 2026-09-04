@@ -661,7 +661,7 @@
         "uuid": "6bf7a8bc-eb70-43f6-b16b-1b538dd0d96d"
       }
     ],
-    "used_designators": "U1",
+    "used_designators": "R1,J1-2,Y1,#PWR1-15,D1,C1-5,Q1,U1-4",
     "variants": []
   },
   "sheets": [
@@ -670,8 +670,12 @@
       "scarlet-8088"
     ],
     [
+      "5b0a69b8-537a-4e54-9053-3d6e1d6f1e22",
+      "Power System"
+    ],
+    [
       "dcc67d5a-c981-48b3-964a-2816653db93c",
-      "CPU"
+      "Compute"
     ]
   ],
   "text_variables": {
