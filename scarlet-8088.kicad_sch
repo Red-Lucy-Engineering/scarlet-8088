@@ -1,0 +1,67 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "6bf7a8bc-eb70-43f6-b16b-1b538dd0d96d")
+	(paper "A4")
+	(title_block
+		(title "${TITLE}")
+		(date "${DATE}")
+		(rev "${REVISION}")
+		(company "${AUTHOR}")
+		(comment 1 "${COMMENT1}")
+	)
+	(lib_symbols)
+	(sheet
+		(at 54.61 58.42)
+		(size 31.75 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "dcc67d5a-c981-48b3-964a-2816653db93c")
+		(property "Sheetname" "CPU"
+			(at 54.61 57.7084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cpu.kicad_sch"
+			(at 54.61 88.2146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "scarlet-8088"
+				(path "/6bf7a8bc-eb70-43f6-b16b-1b538dd0d96d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

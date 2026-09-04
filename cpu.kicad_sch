@@ -1,0 +1,1036 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "477286ab-3a7e-4956-bfb1-80b9b28ab49f")
+	(paper "A4")
+	(title_block
+		(title "${TITLE}")
+		(date "${DATE}")
+		(rev "${REVISION}")
+		(company "${AUTHOR}")
+		(comment 1 "${COMMENT1}")
+	)
+	(lib_symbols
+		(symbol "MCU_Intel:8088_Max_Mode"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -12.7 43.18 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "8088_Max_Mode"
+				(at 10.16 43.18 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "http://datasheets.chipdb.org/Intel/x86/808x/datashts/8088/231456-006.pdf"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "8088 (maximum mode), 8-Bit HMOS Microprocessor, PDIP-40"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "MPRO"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W15.24mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "8088_Max_Mode_0_1"
+				(rectangle
+					(start 13.97 -41.91)
+					(end -13.97 41.91)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "8088_Max_Mode_1_1"
+				(pin power_in line
+					(at 0 -45.72 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -7.62 180)
+					(length 3.81)
+					(name "A14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -5.08 180)
+					(length 3.81)
+					(name "A13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -2.54 180)
+					(length 3.81)
+					(name "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 0 180)
+					(length 3.81)
+					(name "A11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 2.54 180)
+					(length 3.81)
+					(name "A10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 5.08 180)
+					(length 3.81)
+					(name "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 7.62 180)
+					(length 3.81)
+					(name "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 12.7 180)
+					(length 3.81)
+					(name "AD7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 15.24 180)
+					(length 3.81)
+					(name "AD6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 17.78 180)
+					(length 3.81)
+					(name "AD5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 20.32 180)
+					(length 3.81)
+					(name "AD4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 22.86 180)
+					(length 3.81)
+					(name "AD3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 25.4 180)
+					(length 3.81)
+					(name "AD2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 27.94 180)
+					(length 3.81)
+					(name "AD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 30.48 180)
+					(length 3.81)
+					(name "AD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 20.32 0)
+					(length 3.81)
+					(name "NMI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 15.24 0)
+					(length 3.81)
+					(name "INTR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -17.78 38.1 0)
+					(length 3.81)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -45.72 90)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 27.94 0)
+					(length 3.81)
+					(name "RESET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 33.02 0)
+					(length 3.81)
+					(name "READY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 7.62 0)
+					(length 3.81)
+					(name "~{TEST}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 35.56 180)
+					(length 3.81)
+					(name "QS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 38.1 180)
+					(length 3.81)
+					(name "QS0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -27.94 180)
+					(length 3.81)
+					(name "~{S0}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -30.48 180)
+					(length 3.81)
+					(name "~{S1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -33.02 180)
+					(length 3.81)
+					(name "~{S2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -35.56 180)
+					(length 3.81)
+					(name "~{LOCK}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 0 0)
+					(length 3.81)
+					(name "~{RQ}/~{GT1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -5.08 0)
+					(length 3.81)
+					(name "~{RQ}/~{GT0}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output output_low
+					(at 17.78 -38.1 180)
+					(length 3.81)
+					(name "~{RD}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -38.1 0)
+					(length 3.81)
+					(name "MN/~{MX}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -17.78 -33.02 0)
+					(length 3.81)
+					(name "HIGH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -22.86 180)
+					(length 3.81)
+					(name "A19/S6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -20.32 180)
+					(length 3.81)
+					(name "A18/S5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -17.78 180)
+					(length 3.81)
+					(name "A17/S4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -15.24 180)
+					(length 3.81)
+					(name "A16/S3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -10.16 180)
+					(length 3.81)
+					(name "A15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 45.72 270)
+					(length 3.81)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "MCU_Intel:8088_Max_Mode")
+		(at 148.59 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "179740c9-c54c-4b58-a267-3f02fe835fd7")
+		(property "Reference" "U1"
+			(at 150.7333 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Intel_8088"
+			(at 150.7333 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-40_W15.24mm_Socket"
+			(at 149.86 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "http://datasheets.chipdb.org/Intel/x86/808x/datashts/8088/231456-006.pdf"
+			(at 148.59 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "8088 (maximum mode), 8-Bit HMOS Microprocessor, PDIP-40"
+			(at 148.59 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "39"
+			(uuid "173c89a6-c00b-4763-ace9-deeb60074483")
+		)
+		(pin "25"
+			(uuid "dcb93557-50c1-419f-a734-47b39cbbd48b")
+		)
+		(pin "32"
+			(uuid "2402271a-b6bf-459d-bf95-46cd73351cd6")
+		)
+		(pin "26"
+			(uuid "a859fcf1-f93a-4da0-967f-4e93245544c1")
+		)
+		(pin "14"
+			(uuid "8a0af9b3-e91e-456a-ba40-8f6191d75fc2")
+		)
+		(pin "35"
+			(uuid "fcb68d9c-6a60-4208-ab2d-046a69ce1a9f")
+		)
+		(pin "36"
+			(uuid "cae2160f-1c91-4aee-9ac7-ab0394e573e1")
+		)
+		(pin "23"
+			(uuid "12be61b2-308b-4681-af3a-42287753ebb0")
+		)
+		(pin "33"
+			(uuid "9a6b6f21-6605-4f10-9b53-fc6365a7605b")
+		)
+		(pin "34"
+			(uuid "a4d14726-8a48-4e7f-b771-bbd8a9ed05cd")
+		)
+		(pin "18"
+			(uuid "879f08a9-0cc7-4e3e-b8af-bd8ff82cd882")
+		)
+		(pin "11"
+			(uuid "b7349c50-a6c1-454b-8689-79cca4941c47")
+		)
+		(pin "10"
+			(uuid "12497698-fac3-4ea0-a0e7-a8f46dae099e")
+		)
+		(pin "40"
+			(uuid "b3fe67d2-7b5c-4442-9141-09a1e0986e8f")
+		)
+		(pin "16"
+			(uuid "65f69276-d762-4446-891d-afd9423c4a49")
+		)
+		(pin "12"
+			(uuid "828cad2a-16ca-4080-8391-37aeafe6e39a")
+		)
+		(pin "19"
+			(uuid "a243acaf-ae87-452b-8185-3b18383e3a28")
+		)
+		(pin "28"
+			(uuid "bdf10609-3e6f-4797-a9fd-f601e334268a")
+		)
+		(pin "29"
+			(uuid "9940754e-e935-450d-ba47-14d9a8abc9bd")
+		)
+		(pin "9"
+			(uuid "24f898d9-53d3-4488-9c4f-3d41d00ce16a")
+		)
+		(pin "13"
+			(uuid "915fce7f-a4cc-46e9-841f-e6d01691ca9c")
+		)
+		(pin "27"
+			(uuid "849f4db8-e6f3-4660-ac32-2c9f1e1b2b85")
+		)
+		(pin "20"
+			(uuid "e571b520-a2ac-4bd0-9ebf-6f4d7ae51366")
+		)
+		(pin "37"
+			(uuid "e3f41e61-9149-40f3-a19d-6e4f56fc9405")
+		)
+		(pin "30"
+			(uuid "5e1dcf82-ca5f-4ad3-adfa-5f64749a778d")
+		)
+		(pin "31"
+			(uuid "61681ce7-db64-4d29-9151-72c5e4f447fe")
+		)
+		(pin "24"
+			(uuid "6bca259b-4127-46ba-ae4b-e06e5834e881")
+		)
+		(pin "38"
+			(uuid "a169e4d3-61d2-4483-900b-03b50c3a9e03")
+		)
+		(pin "22"
+			(uuid "ef9d1709-f46b-4458-8a28-47997bf7018c")
+		)
+		(pin "21"
+			(uuid "109712f5-4ab1-416a-aa1c-897764729e25")
+		)
+		(pin "17"
+			(uuid "ce247243-13a2-4ecf-9a26-0d74106dc569")
+		)
+		(pin "3"
+			(uuid "212ed075-9b00-4bdc-a520-c2e3dcb13314")
+		)
+		(pin "6"
+			(uuid "be49f58d-a882-4a15-bc15-4422cd537eed")
+		)
+		(pin "7"
+			(uuid "97286ae5-be2c-4974-b995-f2c703f1166c")
+		)
+		(pin "1"
+			(uuid "71b9c85b-a805-445e-ba08-26e45188f4db")
+		)
+		(pin "4"
+			(uuid "822f4244-6d65-41c0-869a-769b8269df39")
+		)
+		(pin "5"
+			(uuid "04f444ff-f09b-4918-b445-e8944059c294")
+		)
+		(pin "15"
+			(uuid "38e521f3-7699-4bc6-9410-01aa71f504d3")
+		)
+		(pin "8"
+			(uuid "5bb90118-4ed9-43e1-8973-3cd5c8de04c1")
+		)
+		(pin "2"
+			(uuid "a8c9318b-0957-42da-b6aa-c82ecad4e38f")
+		)
+		(instances
+			(project "scarlet-8088"
+				(path "/6bf7a8bc-eb70-43f6-b16b-1b538dd0d96d/dcc67d5a-c981-48b3-964a-2816653db93c"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
