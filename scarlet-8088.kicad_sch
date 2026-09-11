@@ -263,63 +263,23 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 26.67) (xy 144.78 26.67)
+			(xy 48.26 21.59) (xy 101.6 21.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "02acd89e-e687-4741-ba4f-6f6ec08d16e7")
+		(uuid "10df3665-ef22-4fb9-9abd-9d1d2730ae35")
 	)
 	(wire
 		(pts
-			(xy 144.78 38.1) (xy 147.32 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0df836da-c1e5-4184-b45b-362247cdd8b2")
-	)
-	(wire
-		(pts
-			(xy 111.76 45.72) (xy 111.76 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21b34026-1b45-489e-ad2e-e3b4a5cb6a47")
-	)
-	(wire
-		(pts
-			(xy 144.78 26.67) (xy 144.78 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a861f32-e2d7-4053-8d7f-af343bbc0ef8")
-	)
-	(wire
-		(pts
-			(xy 111.76 39.37) (xy 93.98 39.37)
+			(xy 48.26 24.13) (xy 101.6 24.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "72cb4114-39f6-4d5a-babc-46861ffe4e20")
-	)
-	(wire
-		(pts
-			(xy 147.32 45.72) (xy 111.76 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "962c73f2-ac99-4173-b293-34effdd60c66")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
@@ -1735,7 +1695,7 @@
 		)
 	)
 	(sheet
-		(at 62.23 19.05)
+		(at 16.51 19.05)
 		(size 31.75 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1751,7 +1711,7 @@
 		)
 		(uuid "5b0a69b8-537a-4e54-9053-3d6e1d6f1e22")
 		(property "Sheetname" "Power System"
-			(at 62.23 18.3384 0)
+			(at 16.51 18.3384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1762,7 +1722,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 62.23 47.5746 0)
+			(at 16.51 47.5746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1773,7 +1733,7 @@
 			)
 		)
 		(pin "-12V" output
-			(at 93.98 44.45 0)
+			(at 48.26 44.45 0)
 			(uuid "15e8928d-4bb4-4554-97b0-8c474000ebb6")
 			(effects
 				(font
@@ -1783,7 +1743,7 @@
 			)
 		)
 		(pin "3.3V" output
-			(at 93.98 41.91 0)
+			(at 48.26 41.91 0)
 			(uuid "e7dfce9d-dd48-421c-8a83-34e3f595bcc7")
 			(effects
 				(font
@@ -1793,7 +1753,7 @@
 			)
 		)
 		(pin "5V" input
-			(at 93.98 39.37 0)
+			(at 48.26 24.13 0)
 			(uuid "ce48e8e1-e17d-4c6f-ab12-edb3390a57aa")
 			(effects
 				(font
@@ -1803,7 +1763,7 @@
 			)
 		)
 		(pin "5VSB" input
-			(at 93.98 36.83 0)
+			(at 48.26 36.83 0)
 			(uuid "c2b4ccdf-0d66-495c-8b17-0d7903e2c1b6")
 			(effects
 				(font
@@ -1813,7 +1773,7 @@
 			)
 		)
 		(pin "12V" output
-			(at 93.98 34.29 0)
+			(at 48.26 34.29 0)
 			(uuid "adf946be-8fad-4ea2-9cb3-234168480930")
 			(effects
 				(font
@@ -1823,7 +1783,7 @@
 			)
 		)
 		(pin "PS_ON" input
-			(at 93.98 31.75 0)
+			(at 48.26 31.75 0)
 			(uuid "e1979713-4a0e-4596-a7a5-6cec7e1dc59f")
 			(effects
 				(font
@@ -1833,7 +1793,7 @@
 			)
 		)
 		(pin "PWR_OK" input
-			(at 93.98 29.21 0)
+			(at 48.26 29.21 0)
 			(uuid "408edcb8-5f47-49ec-bc0b-2e56063466d6")
 			(effects
 				(font
@@ -1843,7 +1803,7 @@
 			)
 		)
 		(pin "RSTBTN" output
-			(at 93.98 26.67 0)
+			(at 48.26 21.59 0)
 			(uuid "c4bd7b0e-4135-48b1-90af-86548ca3d4dd")
 			(effects
 				(font
@@ -1861,7 +1821,93 @@
 		)
 	)
 	(sheet
-		(at 147.32 19.05)
+		(at 101.6 58.42)
+		(size 31.75 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b23dea0a-0487-442b-9226-c3fc6d9e9f0c")
+		(property "Sheetname" "Memory"
+			(at 101.6 57.7084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "memory.kicad_sch"
+			(at 101.6 88.2146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V" input
+			(at 101.6 62.23 180)
+			(uuid "46e413a1-f44d-439d-941b-852e87527f67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{ADDRESS_BUS}" bidirectional
+			(at 101.6 64.77 180)
+			(uuid "444a4bba-166f-4c36-8a2d-a295fa39a4e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MRDC" input
+			(at 101.6 68.58 180)
+			(uuid "ac8c0c0a-55f3-41ba-97f2-1faac76acfa4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MWTC" input
+			(at 101.6 71.12 180)
+			(uuid "e4293cba-69d3-477c-9c93-517e5fe5f17b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "scarlet-8088"
+				(path "/6bf7a8bc-eb70-43f6-b16b-1b538dd0d96d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 19.05)
 		(size 31.75 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1877,7 +1923,7 @@
 		)
 		(uuid "dcc67d5a-c981-48b3-964a-2816653db93c")
 		(property "Sheetname" "Compute"
-			(at 147.32 18.3384 0)
+			(at 101.6 18.3384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1888,7 +1934,7 @@
 			)
 		)
 		(property "Sheetfile" "cpu.kicad_sch"
-			(at 147.32 48.8446 0)
+			(at 101.6 48.8446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1899,7 +1945,7 @@
 			)
 		)
 		(pin "5V" input
-			(at 147.32 45.72 180)
+			(at 101.6 24.13 180)
 			(uuid "c753e441-3bf8-4b39-ae9c-9daa58c83b85")
 			(effects
 				(font
@@ -1909,7 +1955,7 @@
 			)
 		)
 		(pin "{ADDRESS_BUS}" bidirectional
-			(at 147.32 41.91 180)
+			(at 101.6 31.75 180)
 			(uuid "e26fc318-e778-43ae-b6e7-5db7a15fbc09")
 			(effects
 				(font
@@ -1919,8 +1965,48 @@
 			)
 		)
 		(pin "RSTBTN" input
-			(at 147.32 38.1 180)
+			(at 101.6 21.59 180)
 			(uuid "60a72192-16fd-4100-ba73-ce740a6c9188")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MRDC" output
+			(at 101.6 44.45 180)
+			(uuid "1c72be4b-6c0d-4c5f-9693-e3f9fb48ec0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MWTC" output
+			(at 101.6 41.91 180)
+			(uuid "bae753b8-92bd-4716-aa48-04a96300666e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{DATA_BUS}" bidirectional
+			(at 101.6 29.21 180)
+			(uuid "7f2fb170-2d71-4367-abb2-a109273e23a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{MUX_BUS}" bidirectional
+			(at 101.6 34.29 180)
+			(uuid "b49383a4-10e1-4fd1-9572-30bea0e3f792")
 			(effects
 				(font
 					(size 1.27 1.27)

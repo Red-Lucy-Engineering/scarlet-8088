@@ -661,7 +661,7 @@
         "uuid": "6bf7a8bc-eb70-43f6-b16b-1b538dd0d96d"
       }
     ],
-    "used_designators": "H1-10,R1-3,J1-2,Y1,#PWR1-32,D1,C1-8,Q1,U1-6",
+    "used_designators": "U1-18,Q1,C1-20,D1,#PWR1-61,Y1,J1-2,R1-7,H1-10",
     "variants": []
   },
   "sheets": [
@@ -676,6 +676,10 @@
     [
       "dcc67d5a-c981-48b3-964a-2816653db93c",
       "Compute"
+    ],
+    [
+      "b23dea0a-0487-442b-9226-c3fc6d9e9f0c",
+      "Memory"
     ]
   ],
   "text_variables": {
