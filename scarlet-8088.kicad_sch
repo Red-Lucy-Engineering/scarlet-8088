@@ -521,6 +521,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 111.76) (xy 48.26 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c9f4566-39d2-4b78-89bd-72649242ccf1")
+	)
+	(wire
+		(pts
 			(xy 81.28 26.67) (xy 81.28 81.28)
 		)
 		(stroke
@@ -598,6 +608,16 @@
 			(type default)
 		)
 		(uuid "79dadf50-8450-4b08-9494-91bc931fa23a")
+	)
+	(wire
+		(pts
+			(xy 90.17 49.53) (xy 90.17 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a8b1520-bc0c-4835-bd93-f6a56461782f")
 	)
 	(wire
 		(pts
@@ -798,6 +818,16 @@
 			(type default)
 		)
 		(uuid "f639e136-e60b-4b7e-b43f-1c33137facc0")
+	)
+	(wire
+		(pts
+			(xy 101.6 49.53) (xy 90.17 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdf76bcd-3d52-441f-bce6-f00a5cd7ae04")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
@@ -2486,7 +2516,7 @@
 	)
 	(sheet
 		(at 16.51 58.42)
-		(size 31.75 29.21)
+		(size 31.75 58.42)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2512,7 +2542,7 @@
 			)
 		)
 		(property "Sheetfile" "io.kicad_sch"
-			(at 16.51 88.2146 0)
+			(at 16.51 117.4246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2622,6 +2652,76 @@
 				(justify right)
 			)
 		)
+		(pin "ISA0_IRQ" input
+			(at 48.26 93.98 0)
+			(uuid "1e2e8080-8aca-4453-b326-2d3eddbea096")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ISA1_IRQ" input
+			(at 48.26 96.52 0)
+			(uuid "fc5291e4-c25f-4ce4-a6b7-84c3c12ba908")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ISA2_IRQ" input
+			(at 48.26 99.06 0)
+			(uuid "5e50b576-0fee-4869-8bb7-76fffd56b8c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ISA3_IRQ" input
+			(at 48.26 101.6 0)
+			(uuid "5bff4b97-6e43-4a26-a031-c0bb28366625")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PS2_IRQ" input
+			(at 48.26 104.14 0)
+			(uuid "8d5055d6-5650-405f-875b-f67b098338c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RTL_IRQ" input
+			(at 48.26 106.68 0)
+			(uuid "26ce1bf8-0cad-4401-9aa3-3d1eaad1bf15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCLK" input
+			(at 48.26 111.76 0)
+			(uuid "4c51fdd1-cf53-49c1-baf1-132d1575b393")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "scarlet-8088"
 				(path "/6bf7a8bc-eb70-43f6-b16b-1b538dd0d96d"
@@ -2632,7 +2732,7 @@
 	)
 	(sheet
 		(at 101.6 19.05)
-		(size 31.75 29.21)
+		(size 31.75 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2658,7 +2758,7 @@
 			)
 		)
 		(property "Sheetfile" "cpu.kicad_sch"
-			(at 101.6 48.8446 0)
+			(at 101.6 53.9246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2771,6 +2871,16 @@
 		(pin "INTR" output
 			(at 101.6 46.99 180)
 			(uuid "00f85885-62ee-4886-8e8d-9f3be146822e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCLK" output
+			(at 101.6 49.53 180)
+			(uuid "4310b4a1-6ca7-453f-a662-8a6361e72c69")
 			(effects
 				(font
 					(size 1.27 1.27)

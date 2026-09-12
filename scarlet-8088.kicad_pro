@@ -661,7 +661,7 @@
         "uuid": "6bf7a8bc-eb70-43f6-b16b-1b538dd0d96d"
       }
     ],
-    "used_designators": "SW1,U1-23,Q1,C1-35,D1,#PWR1-76,Y1-2,J1-3,R1-12,H1-10",
+    "used_designators": "SW1,U1-24,Q1,C1-36,D1,#PWR1-78,Y1-2,J1-3,R1-14,H1-10",
     "variants": []
   },
   "sheets": [
@@ -688,6 +688,10 @@
     [
       "731d324b-e357-4b46-b836-74cfeb57c308",
       "RS232 UART"
+    ],
+    [
+      "5fb0295b-3183-4166-9757-48373d749595",
+      "Programmable Interrupt Timer"
     ]
   ],
   "text_variables": {

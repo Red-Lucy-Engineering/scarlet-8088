@@ -8342,6 +8342,17 @@
 		)
 		(uuid "3f9deef9-ea1a-4321-ba26-c501bd02b0bc")
 	)
+	(hierarchical_label "PCLK"
+		(shape output)
+		(at 134.62 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4ddb9bea-13eb-4377-bb54-eee33436ebd5")
+	)
 	(hierarchical_label "5V"
 		(shape input)
 		(at 191.77 20.32 90)

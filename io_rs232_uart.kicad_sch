@@ -4494,16 +4494,6 @@
 		)
 		(uuid "c66d9de6-eb8b-48e3-840a-1973e139cbc1")
 	)
-	(label "UART_IRQ"
-		(at 58.42 147.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cf83b2a0-be83-4b9c-acc4-2c3dcf67a12d")
-	)
 	(label "UART_CS"
 		(at 29.21 114.3 180)
 		(effects
@@ -4706,6 +4696,17 @@
 			(justify right)
 		)
 		(uuid "dc4e9207-0580-4ce1-b934-e8dc86d06024")
+	)
+	(hierarchical_label "UART_IRQ"
+		(shape output)
+		(at 58.42 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f7a54356-6978-4647-b62e-82c5da22461e")
 	)
 	(symbol
 		(lib_id "power:GND")
