@@ -8464,6 +8464,17 @@
 		)
 		(uuid "d28fab79-e73f-4aef-bbf1-7e7fd641f5e1")
 	)
+	(hierarchical_label "INTA"
+		(shape input)
+		(at 123.19 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d85b8292-da9d-4f28-9bf3-642edbe97bf6")
+	)
 	(hierarchical_label "{MUX_BUS}"
 		(shape bidirectional)
 		(at 66.04 76.2 0)
@@ -8474,6 +8485,17 @@
 			(justify left)
 		)
 		(uuid "de5738c8-9d50-4392-ab9e-fbb4d5667417")
+	)
+	(hierarchical_label "INTR"
+		(shape output)
+		(at 173.99 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed538bf9-6ed8-4e7b-83e7-dd73036bf3f1")
 	)
 	(hierarchical_label "{DATA_BUS}"
 		(shape bidirectional)
