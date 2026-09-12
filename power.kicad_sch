@@ -2320,9 +2320,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "AND-gate, that uses\nthe power-OK signal and 5V\nto send a reset-signal to the\nintel clock IC for power-on reset"
+	(text "AND-gate 1 uses\nthe power-OK signal and 5V\nto send a reset-signal to the\nintel clock IC for power-on reset\n\nAND-Gate 2 controls the enable signal\nfor the IO controller using\n8288 IO signals"
 		(exclude_from_sim no)
-		(at 111.76 28.194 0)
+		(at 104.902 24.638 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2339,12 +2339,6 @@
 			)
 		)
 		(uuid "f1113f42-bd92-42a2-8eb7-6a5fa62dd984")
-	)
-	(junction
-		(at 93.98 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "048cf542-1e31-490a-8940-4c83910885f5")
 	)
 	(junction
 		(at 38.1 162.56)
@@ -2406,12 +2400,6 @@
 		(color 0 0 0 0)
 		(uuid "e56e289c-2cef-47a2-8d76-dbda1393bfbf")
 	)
-	(junction
-		(at 93.98 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "efafb40d-4562-4224-876a-3ba58f5fed57")
-	)
 	(no_connect
 		(at 25.4 74.93)
 		(uuid "08f88998-9f5a-40e8-a511-f00be831349f")
@@ -2431,10 +2419,6 @@
 	(no_connect
 		(at 46.99 40.64)
 		(uuid "c1dc016f-27cf-4732-ba53-9a453602e917")
-	)
-	(no_connect
-		(at 132.08 49.53)
-		(uuid "d6b829a0-f733-4156-ad22-497b4c7494e6")
 	)
 	(no_connect
 		(at 132.08 54.61)
@@ -2459,16 +2443,6 @@
 			(type default)
 		)
 		(uuid "04d74ffe-ffb7-4ee0-b7fe-a780d0e26d97")
-	)
-	(wire
-		(pts
-			(xy 93.98 54.61) (xy 93.98 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05aba14c-8644-44a2-871d-c736f4fe27af")
 	)
 	(wire
 		(pts
@@ -2542,6 +2516,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 49.53) (xy 132.08 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aabd3c2-7ac5-4865-a5bc-9eaec2e452bc")
+	)
+	(wire
+		(pts
 			(xy 43.18 72.39) (xy 43.18 78.74)
 		)
 		(stroke
@@ -2559,16 +2543,6 @@
 			(type default)
 		)
 		(uuid "3ad79baf-1567-44c6-9ff5-0b6d28b41d52")
-	)
-	(wire
-		(pts
-			(xy 93.98 52.07) (xy 93.98 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dd5b611-d5e0-41be-ae1b-0b516981a9a7")
 	)
 	(wire
 		(pts
@@ -2652,16 +2626,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 54.61) (xy 96.52 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a4a24b8-558e-4500-b5d4-5a57c33295c2")
-	)
-	(wire
-		(pts
 			(xy 133.35 27.94) (xy 133.35 34.29)
 		)
 		(stroke
@@ -2739,16 +2703,6 @@
 			(type default)
 		)
 		(uuid "8f2ba192-46a5-44ca-8859-98db2626ce25")
-	)
-	(wire
-		(pts
-			(xy 96.52 52.07) (xy 93.98 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ee2b894-3a7b-40b8-a3f6-1969fcf07703")
 	)
 	(wire
 		(pts
@@ -2872,6 +2826,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 52.07) (xy 96.52 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6333691-0e89-40b6-855d-1b610c799419")
+	)
+	(wire
+		(pts
 			(xy 38.1 72.39) (xy 43.18 72.39)
 		)
 		(stroke
@@ -2919,6 +2883,16 @@
 			(type default)
 		)
 		(uuid "deaaf49a-06a0-4a98-a42a-a3265c951c17")
+	)
+	(wire
+		(pts
+			(xy 90.17 54.61) (xy 96.52 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1042035-b0e0-481b-8158-9089a3753009")
 	)
 	(wire
 		(pts
@@ -3117,6 +3091,17 @@
 		)
 		(uuid "5831e4f3-5e41-4f60-a884-39f87ee81402")
 	)
+	(hierarchical_label "IO_G2A"
+		(shape input)
+		(at 137.16 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6c403f4e-469c-4207-ac34-5415ef96cc3a")
+	)
 	(hierarchical_label "PS_ON"
 		(shape input)
 		(at 87.63 119.38 90)
@@ -3150,6 +3135,17 @@
 		)
 		(uuid "783f2ed9-9534-4cd5-aa8b-ba3b42530f18")
 	)
+	(hierarchical_label "IOWC"
+		(shape input)
+		(at 90.17 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "87522c35-1f1d-4a0b-b2e2-f9784718a779")
+	)
 	(hierarchical_label "PWR_OK"
 		(shape input)
 		(at 96.52 46.99 180)
@@ -3182,6 +3178,17 @@
 			(justify left)
 		)
 		(uuid "9fd4f5c8-77d7-4db4-9546-3a26ca9a2335")
+	)
+	(hierarchical_label "IORC"
+		(shape input)
+		(at 90.17 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "adb9097e-075f-434c-8ad3-be4e94075528")
 	)
 	(hierarchical_label "5V"
 		(shape input)

@@ -5376,6 +5376,16 @@
 		)
 		(uuid "9e88df6b-d06d-4dae-abca-5cccfadd6e3c")
 	)
+	(wire
+		(pts
+			(xy 170.18 68.58) (xy 175.26 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fe28015-751e-461e-af32-eb3fc373933d")
+	)
 	(bus
 		(pts
 			(xy 77.47 161.29) (xy 120.65 161.29)
@@ -5845,6 +5855,16 @@
 			(type default)
 		)
 		(uuid "d7d3ec50-27f9-441a-87f6-9a4b001072a9")
+	)
+	(wire
+		(pts
+			(xy 170.18 71.12) (xy 175.26 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfe1b1bc-00a9-48ad-ac0d-b75ec81eae7d")
 	)
 	(wire
 		(pts
@@ -6966,6 +6986,17 @@
 		)
 		(uuid "fc9d4a95-f046-49c9-a3c3-6a678618315c")
 	)
+	(hierarchical_label "RSTBTN_INV"
+		(shape output)
+		(at 170.18 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "00f53b96-9e31-4840-95af-e12e160f06f8")
+	)
 	(hierarchical_label "{DATA_BUS}"
 		(shape bidirectional)
 		(at 214.63 135.89 0)
@@ -7152,6 +7183,17 @@
 			(justify left)
 		)
 		(uuid "c7dcccf5-1873-484d-ade9-3df5c280b7db")
+	)
+	(hierarchical_label "RSTBTN"
+		(shape input)
+		(at 170.18 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cce0a9e5-be6d-485c-8745-f9c0ebd9d48a")
 	)
 	(hierarchical_label "5V"
 		(shape input)

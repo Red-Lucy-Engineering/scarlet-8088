@@ -8343,6 +8343,17 @@
 		)
 		(uuid "76301f1c-c9ee-491c-8fd1-e54b1955db85")
 	)
+	(hierarchical_label "IOWC"
+		(shape output)
+		(at 123.19 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e78fc19-8f34-4752-912b-c997947e6726")
+	)
 	(hierarchical_label "5V"
 		(shape input)
 		(at 105.41 130.81 90)
@@ -8386,6 +8397,17 @@
 			(justify right)
 		)
 		(uuid "b158c715-10ae-4ada-be66-85951a67ce30")
+	)
+	(hierarchical_label "IORC"
+		(shape output)
+		(at 123.19 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b2b5846c-a159-43f2-84d5-b960e24eddc3")
 	)
 	(hierarchical_label "5V"
 		(shape input)
