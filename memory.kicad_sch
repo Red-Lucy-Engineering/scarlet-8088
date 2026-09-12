@@ -3602,6 +3602,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Memory (RAM/ROM)"
+		(exclude_from_sim no)
+		(at 148.59 16.51 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "a0ca4428-645c-47de-98ad-8825e0068e42")
+	)
 	(junction
 		(at 207.01 25.4)
 		(diameter 0)

@@ -684,6 +684,10 @@
     [
       "c2b4fe32-c8e2-4470-a0ad-251842fa1d08",
       "IO"
+    ],
+    [
+      "731d324b-e357-4b46-b836-74cfeb57c308",
+      "RS232 UART"
     ]
   ],
   "text_variables": {

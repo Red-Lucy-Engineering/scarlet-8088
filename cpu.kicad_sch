@@ -4113,6 +4113,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Compute\n(CPU/FPU/Bus demux/System clock)"
+		(exclude_from_sim no)
+		(at 154.94 18.288 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "9015598b-5b77-473d-b025-fde9315435ef")
+	)
 	(junction
 		(at 167.64 180.34)
 		(diameter 0)

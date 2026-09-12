@@ -521,6 +521,26 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 26.67) (xy 81.28 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d0f14be-1473-4b7c-9447-b56e933d144a")
+	)
+	(wire
+		(pts
+			(xy 83.82 83.82) (xy 48.26 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72546f75-9f79-436d-a98f-531fa270a135")
+	)
+	(wire
+		(pts
 			(xy 48.26 24.13) (xy 87.63 24.13)
 		)
 		(stroke
@@ -541,6 +561,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 26.67) (xy 101.6 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74edc11b-bbc2-4a0c-961d-300e00740867")
+	)
+	(wire
+		(pts
 			(xy 87.63 62.23) (xy 87.63 24.13)
 		)
 		(stroke
@@ -548,6 +578,16 @@
 			(type default)
 		)
 		(uuid "75227e8f-ada3-4df2-9dfb-90ee5c228ad0")
+	)
+	(wire
+		(pts
+			(xy 83.82 46.99) (xy 83.82 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7910cf33-dd9d-44d4-9620-5ce8fc469d41")
 	)
 	(bus
 		(pts
@@ -588,6 +628,16 @@
 			(type default)
 		)
 		(uuid "89545331-aedb-4296-8163-3054ac9bc075")
+	)
+	(wire
+		(pts
+			(xy 48.26 81.28) (xy 81.28 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ad42b90-4beb-41cd-949c-57387889274d")
 	)
 	(bus
 		(pts
@@ -688,6 +738,16 @@
 			(type default)
 		)
 		(uuid "ad0f2747-871f-4d21-8712-148a13f34098")
+	)
+	(wire
+		(pts
+			(xy 101.6 46.99) (xy 83.82 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b17243f8-01ac-4af6-b4f5-4758f2bee517")
 	)
 	(wire
 		(pts
@@ -2532,9 +2592,29 @@
 				(justify right)
 			)
 		)
+		(pin "INTA" output
+			(at 48.26 81.28 0)
+			(uuid "5ed73617-3fa0-42d6-a035-003ba1fc480b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INTR" input
+			(at 48.26 83.82 0)
+			(uuid "8c61b298-8350-46f0-9eff-8eb321b82f4e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(pin "RSTBTN_INV" input
 			(at 48.26 78.74 0)
-			(uuid "9a3b73ee-54a4-4429-a5ad-532b82782351")
+			(uuid "45c9bfab-af91-4e3b-86c4-2bc4f1888021")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2671,6 +2751,26 @@
 		(pin "IOWC" output
 			(at 101.6 39.37 180)
 			(uuid "a68031c1-02b6-4962-8c34-5375590a49d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INTA" input
+			(at 101.6 26.67 180)
+			(uuid "6b5abe69-53ec-4568-9991-4eaf6dbdc08a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INTR" output
+			(at 101.6 46.99 180)
+			(uuid "00f85885-62ee-4886-8e8d-9f3be146822e")
 			(effects
 				(font
 					(size 1.27 1.27)
