@@ -4328,6 +4328,15 @@
 		(uuid "e48e26a9-5127-45d8-b3ab-06aeb401d296")
 	)
 	(bus_entry
+		(at 168.91 73.66)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4d4950f-f45b-4aa0-a3b5-35b487e13336")
+	)
+	(bus_entry
 		(at 80.01 118.11)
 		(size -2.54 -2.54)
 		(stroke
@@ -4538,7 +4547,7 @@
 	)
 	(bus
 		(pts
-			(xy 180.34 100.33) (xy 180.34 147.32)
+			(xy 180.34 88.9) (xy 180.34 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5018,6 +5027,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 73.66) (xy 175.26 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5da1a313-cd69-4360-812f-0b93e1288f26")
+	)
+	(wire
+		(pts
 			(xy 137.16 45.72) (xy 137.16 40.64)
 		)
 		(stroke
@@ -5136,6 +5155,16 @@
 		)
 		(uuid "6e278f96-5a68-4642-bc0c-aae3ded676c2")
 	)
+	(bus
+		(pts
+			(xy 166.37 76.2) (xy 166.37 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e7503cf-f751-4eb4-9787-876e4d4a657a")
+	)
 	(wire
 		(pts
 			(xy 199.39 96.52) (xy 199.39 104.14)
@@ -5185,6 +5214,16 @@
 			(type default)
 		)
 		(uuid "79d6e257-c489-4488-ae09-05364c1e3474")
+	)
+	(bus
+		(pts
+			(xy 180.34 88.9) (xy 166.37 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aaa1a5e-23d5-40d3-8fdb-a4606e9bb2cb")
 	)
 	(wire
 		(pts
@@ -6028,16 +6067,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 40.64) (xy 85.09 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f70bccfb-dfef-48a2-a000-b07fdc2162cc")
-	)
-	(wire
-		(pts
 			(xy 182.88 109.22) (xy 189.23 109.22)
 		)
 		(stroke
@@ -6866,6 +6895,16 @@
 		)
 		(uuid "d697d457-8c3e-4330-8bac-3327306e5d1e")
 	)
+	(label "addr0"
+		(at 168.91 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6ed3d80-919e-4c3d-a5c5-7731a051b381")
+	)
 	(label "BIOS_CE"
 		(at 184.15 156.21 180)
 		(effects
@@ -7084,6 +7123,17 @@
 		)
 		(uuid "60172709-9e34-4e7c-8756-97b13ee2711d")
 	)
+	(hierarchical_label "IO_ACT"
+		(shape input)
+		(at 85.09 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "61864f99-69fc-4719-9130-9f2c6dd2d6ee")
+	)
 	(hierarchical_label "MRDC"
 		(shape input)
 		(at 109.22 130.81 0)
@@ -7094,6 +7144,17 @@
 			(justify left)
 		)
 		(uuid "6a72a96c-5d24-47f7-99c2-c63283a942fd")
+	)
+	(hierarchical_label "IO_ACT"
+		(shape input)
+		(at 60.96 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6bb6f852-6bff-4b5f-8b8a-bb05807985f4")
 	)
 	(hierarchical_label "MRDC"
 		(shape input)
@@ -7237,6 +7298,17 @@
 			(justify left)
 		)
 		(uuid "eabbe785-19c1-4f79-b079-dce96dbbb371")
+	)
+	(hierarchical_label "addr0_INV"
+		(shape output)
+		(at 175.26 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "edfb376b-6c3c-47f5-b916-80806f77f876")
 	)
 	(hierarchical_label "5V"
 		(shape input)

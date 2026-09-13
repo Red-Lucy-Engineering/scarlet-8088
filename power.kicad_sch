@@ -2351,16 +2351,16 @@
 		(uuid "f1113f42-bd92-42a2-8eb7-6a5fa62dd984")
 	)
 	(junction
+		(at 36.83 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "392b66df-bbaf-4940-a797-7e0bb0301f9b")
+	)
+	(junction
 		(at 97.79 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e864ff1-72bf-4061-a08f-497384478501")
-	)
-	(junction
-		(at 214.63 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ecccaf4-9bfd-479e-8b54-e2393bc59f9c")
 	)
 	(junction
 		(at 214.63 81.28)
@@ -2404,19 +2404,9 @@
 		(color 0 0 0 0)
 		(uuid "e33d4e05-e75a-4824-9b23-bc633f01a73f")
 	)
-	(junction
-		(at 214.63 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e56e289c-2cef-47a2-8d76-dbda1393bfbf")
-	)
 	(no_connect
 		(at 43.18 81.28)
 		(uuid "08f88998-9f5a-40e8-a511-f00be831349f")
-	)
-	(no_connect
-		(at 252.73 68.58)
-		(uuid "159886aa-0a68-404a-ad51-8bc256788f91")
 	)
 	(no_connect
 		(at 55.88 81.28)
@@ -2443,16 +2433,6 @@
 			(type default)
 		)
 		(uuid "04c2f1de-7c7b-47d2-81c4-647b55d8f3d3")
-	)
-	(wire
-		(pts
-			(xy 214.63 73.66) (xy 217.17 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04d74ffe-ffb7-4ee0-b7fe-a780d0e26d97")
 	)
 	(wire
 		(pts
@@ -2546,16 +2526,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 76.2) (xy 214.63 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ad79baf-1567-44c6-9ff5-0b6d28b41d52")
-	)
-	(wire
-		(pts
 			(xy 34.29 76.2) (xy 34.29 80.01)
 		)
 		(stroke
@@ -2583,6 +2553,16 @@
 			(type default)
 		)
 		(uuid "4db9155b-4025-4c31-9bad-093f27558176")
+	)
+	(wire
+		(pts
+			(xy 36.83 71.12) (xy 43.18 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f26abbc-b269-4f57-a6b4-3c34f737a002")
 	)
 	(wire
 		(pts
@@ -2626,13 +2606,13 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 73.66) (xy 214.63 76.2)
+			(xy 31.75 71.12) (xy 36.83 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "65fd30dc-a665-4f8a-9587-111c71b2edb3")
+		(uuid "647ccfbd-7835-403c-b73e-7fd7247c287f")
 	)
 	(wire
 		(pts
@@ -2706,13 +2686,13 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 76.2) (xy 217.17 76.2)
+			(xy 213.36 73.66) (xy 217.17 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8f2ba192-46a5-44ca-8859-98db2626ce25")
+		(uuid "9f47070a-88dc-43d8-aaa2-06dfdf1acde1")
 	)
 	(wire
 		(pts
@@ -2964,26 +2944,6 @@
 		)
 		(uuid "0209cfb0-9f20-4a3d-a789-7f55e9484edb")
 	)
-	(label "HDD_LED+"
-		(at 43.18 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3d9294de-de0a-4b65-9242-22af47415d2a")
-	)
-	(label "HDD_LED-"
-		(at 43.18 73.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4c8a9aa1-c56f-4a07-ae58-3cb2c867310d")
-	)
 	(label "PLED+"
 		(at 55.88 71.12 0)
 		(effects
@@ -3045,6 +3005,17 @@
 			(justify left)
 		)
 		(uuid "129c3986-585f-49cb-a85f-21f68cdb742e")
+	)
+	(hierarchical_label "HDD_LED-"
+		(shape passive)
+		(at 43.18 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "206223a3-221c-4eaf-8be6-21520ae39f09")
 	)
 	(hierarchical_label "PWR_OK"
 		(shape input)
@@ -3167,6 +3138,28 @@
 		)
 		(uuid "90cd99b8-9ed1-4ed6-ac2e-fb3fcbc47a54")
 	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 36.83 63.5 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93a757ad-774e-4c6a-a72c-64cb88fe60ff")
+	)
+	(hierarchical_label "IDE_LE"
+		(shape output)
+		(at 252.73 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97a52865-8290-4394-bb01-7ae9006da4e9")
+	)
 	(hierarchical_label "3.3V"
 		(shape output)
 		(at 53.34 36.83 0)
@@ -3232,6 +3225,39 @@
 			(justify left)
 		)
 		(uuid "dced80bc-a681-4e0a-898a-7d14f469ff32")
+	)
+	(hierarchical_label "IORC"
+		(shape input)
+		(at 217.17 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e06b22e7-d5b1-43a7-bb67-607f7494a4f9")
+	)
+	(hierarchical_label "IDE_CS"
+		(shape input)
+		(at 213.36 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e4159332-c414-49be-bbae-7bf4f3f2159a")
+	)
+	(hierarchical_label "HDD_LED+"
+		(shape passive)
+		(at 31.75 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7d371f4-7267-4b19-82e8-dd6c07a1a8ab")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3637,6 +3663,88 @@
 			(project "scarlet-8088"
 				(path "/6bf7a8bc-eb70-43f6-b16b-1b538dd0d96d/5b0a69b8-537a-4e54-9053-3d6e1d6f1e22"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 36.83 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d42ed3b-0b98-4817-a316-f27e293631f1")
+		(property "Reference" "R27"
+			(at 39.37 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3,3R"
+			(at 39.37 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 35.052 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 36.83 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "30a47d97-9c6f-4050-9f28-686a1c3e7939")
+		)
+		(pin "1"
+			(uuid "b26170f5-0431-4668-a6b9-0f27f5178017")
+		)
+		(instances
+			(project "scarlet-8088"
+				(path "/6bf7a8bc-eb70-43f6-b16b-1b538dd0d96d/5b0a69b8-537a-4e54-9053-3d6e1d6f1e22"
+					(reference "R27")
 					(unit 1)
 				)
 			)

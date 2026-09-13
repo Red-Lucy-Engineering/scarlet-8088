@@ -7065,16 +7065,6 @@
 		)
 		(uuid "21ea1c79-e5fa-45ad-b5ae-c42f36ba61ae")
 	)
-	(label "DTR"
-		(at 68.58 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "232bce46-f87d-462a-a5c2-331b7d229ef1")
-	)
 	(label "ad1"
 		(at 213.36 48.26 180)
 		(effects
@@ -7544,16 +7534,6 @@
 			(justify right bottom)
 		)
 		(uuid "7ef5455a-d0e0-4bfc-adef-6055c2446989")
-	)
-	(label "DTR"
-		(at 160.02 172.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7fb5b8ad-82bd-405d-b321-8b91fd5b9701")
 	)
 	(label "ad5"
 		(at 20.32 45.72 0)
@@ -8386,6 +8366,17 @@
 		)
 		(uuid "8a1638b9-b641-4939-9f9a-3bf306afbb98")
 	)
+	(hierarchical_label "DTR"
+		(shape input)
+		(at 68.58 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9873e094-8ae1-483f-80f0-47e7fcabfba0")
+	)
 	(hierarchical_label "MRDC"
 		(shape output)
 		(at 123.19 160.02 0)
@@ -8473,6 +8464,17 @@
 			(justify left)
 		)
 		(uuid "c3b587b1-30fa-4397-a43c-aabed60b7f83")
+	)
+	(hierarchical_label "DTR"
+		(shape input)
+		(at 160.02 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c61dff14-58c0-4e11-9778-15496acc4c5e")
 	)
 	(hierarchical_label "5V"
 		(shape input)

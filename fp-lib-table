@@ -9,4 +9,6 @@
 	(lib (name "CD74HCT14E Inverter") (type "KiCad") (uri "${KIPRJMOD}/extra/CD74HCT14E/CD74HCT14E/CD74HCT14E.pretty") (options "") (descr ""))
 	(lib (name "CD74HCT10E 3-Input AND-Gate") (type "KiCad") (uri "${KIPRJMOD}/extra/CD74HCT10E/CD74HCT10E/CD74HCT10E.pretty") (options "") (descr ""))
 	(lib (name "footprints") (type "KiCad") (uri "${KIPRJMOD}/extra/CD74HCT30E/CD74HCT30E/footprints.pretty") (options "") (descr ""))
+	(lib (name "SN74HCT573N") (type "KiCad") (uri "${KIPRJMOD}/extra/SN74HCT573N/SN74HCT573N.pretty") (options "") (descr ""))
+	(lib (name "SN74HCT32N") (type "KiCad") (uri "${KIPRJMOD}/extra/SN74HCT32N/SN74HCT32N.pretty") (options "") (descr ""))
 )

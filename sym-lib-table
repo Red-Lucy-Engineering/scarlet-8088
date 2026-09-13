@@ -9,4 +9,6 @@
 	(lib (name "CD74HCT14E") (type "KiCad") (uri "${KIPRJMOD}/extra/CD74HCT14E/CD74HCT14E/CD74HCT14E.kicad_sym") (options "") (descr ""))
 	(lib (name "CD74HCT10E") (type "KiCad") (uri "${KIPRJMOD}/extra/CD74HCT10E/CD74HCT10E/CD74HCT10E.kicad_sym") (options "") (descr ""))
 	(lib (name "CD74HCT30E") (type "KiCad") (uri "${KIPRJMOD}/extra/CD74HCT30E/CD74HCT30E/CD74HCT30E.kicad_sym") (options "") (descr ""))
+	(lib (name "SN74HCT573N") (type "KiCad") (uri "${KIPRJMOD}/extra/SN74HCT573N/SN74HCT573N.kicad_sym") (options "") (descr ""))
+	(lib (name "SN74HCT32N") (type "KiCad") (uri "${KIPRJMOD}/extra/SN74HCT32N/SN74HCT32N.kicad_sym") (options "") (descr ""))
 )
