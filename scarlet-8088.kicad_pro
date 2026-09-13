@@ -661,7 +661,7 @@
         "uuid": "6bf7a8bc-eb70-43f6-b16b-1b538dd0d96d"
       }
     ],
-    "used_designators": "SW1,F1-2,U1-25,Q1,C1-42,D1,#PWR1-85,Y1-3,J1-5,R1-21,H1-10",
+    "used_designators": "SW1,F1-2,U1-27,Q1,C1-46,D1,#PWR1-95,Y1-3,J1-6,R1-24,H1-10",
     "variants": []
   },
   "sheets": [
@@ -696,6 +696,10 @@
     [
       "58d20aa1-bbc7-48cc-9061-499d1159c34c",
       "PS2"
+    ],
+    [
+      "dd4a8a14-bf0c-4089-8fa4-4832b31eeb41",
+      "RJ45 Ethernet"
     ]
   ],
   "text_variables": {

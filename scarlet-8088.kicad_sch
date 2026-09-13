@@ -2702,26 +2702,6 @@
 				(justify right)
 			)
 		)
-		(pin "PS2_KBD_IRQ" input
-			(at 48.26 86.36 0)
-			(uuid "6626e8e4-d629-44af-93f6-2ccbcc05430f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PS2_MOUSE_IRQ" input
-			(at 48.26 88.9 0)
-			(uuid "7b2627d4-8bcf-499f-a594-5f64ce2974ee")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(instances
 			(project "scarlet-8088"
 				(path "/6bf7a8bc-eb70-43f6-b16b-1b538dd0d96d"

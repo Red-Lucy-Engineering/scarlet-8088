@@ -3056,10 +3056,22 @@
 		(uuid "acb0cea5-98e9-4cb0-820e-f5ade691aa1a")
 	)
 	(junction
+		(at 80.01 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "add1eed4-67dc-4d3a-99e7-d97180431dda")
+	)
+	(junction
 		(at 182.88 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5c1313e-9462-4a74-8ddd-1d245db53c44")
+	)
+	(junction
+		(at 91.44 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9f75563-39e5-4a61-8ba4-8e7bee0e8cc3")
 	)
 	(junction
 		(at 182.88 46.99)
@@ -3732,6 +3744,16 @@
 		)
 		(uuid "588be0ac-abb6-4af1-94e8-1eb1afc0327d")
 	)
+	(bus
+		(pts
+			(xy 151.13 137.16) (xy 80.01 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58fc8534-469e-4c9c-9fd5-fe1e9e101d47")
+	)
 	(wire
 		(pts
 			(xy 180.34 39.37) (xy 182.88 39.37)
@@ -3871,6 +3893,16 @@
 			(type default)
 		)
 		(uuid "76517aa2-6aa1-4921-a123-bf4ae6a2e31e")
+	)
+	(bus
+		(pts
+			(xy 91.44 139.7) (xy 151.13 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "770b91e4-f9be-435a-8420-aa3a6a3ecee9")
 	)
 	(bus
 		(pts
@@ -4124,6 +4156,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 129.54) (xy 151.13 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8fb4a2e-1067-4648-9d29-508035b5f5f5")
+	)
+	(wire
+		(pts
 			(xy 217.17 45.72) (xy 220.98 45.72)
 		)
 		(stroke
@@ -4134,7 +4176,7 @@
 	)
 	(bus
 		(pts
-			(xy 80.01 121.92) (xy 80.01 181.61)
+			(xy 80.01 121.92) (xy 80.01 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4154,7 +4196,7 @@
 	)
 	(bus
 		(pts
-			(xy 91.44 124.46) (xy 91.44 179.07)
+			(xy 91.44 124.46) (xy 91.44 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4191,6 +4233,16 @@
 			(type default)
 		)
 		(uuid "b39715c8-2454-40f8-bf1e-de63cf9cb201")
+	)
+	(bus
+		(pts
+			(xy 91.44 139.7) (xy 91.44 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b49640e2-12e5-47ac-9663-d377c07d1ed7")
 	)
 	(wire
 		(pts
@@ -4341,6 +4393,16 @@
 			(type default)
 		)
 		(uuid "cc7ee034-4e46-4cb7-8745-28f75dd6d886")
+	)
+	(bus
+		(pts
+			(xy 80.01 137.16) (xy 80.01 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccda190a-3935-4d96-8dee-ae5bdec2fc4e")
 	)
 	(wire
 		(pts
@@ -4692,6 +4754,16 @@
 		)
 		(uuid "55c6b420-6075-43f8-b1c8-47c0511078fc")
 	)
+	(label "RTL_IRQ"
+		(at 251.46 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "603cdbfc-529a-4e18-bfd9-0860f2205081")
+	)
 	(label "addr8"
 		(at 27.94 50.8 0)
 		(effects
@@ -4842,6 +4914,16 @@
 		)
 		(uuid "a61ce524-93cf-4d0c-9ce3-0ba2891f07a8")
 	)
+	(label "RTL_IRQ"
+		(at 140.97 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "afcc5146-21ef-4be0-9289-4bf2183957a8")
+	)
 	(label "d6"
 		(at 100.33 82.55 0)
 		(effects
@@ -4962,6 +5044,17 @@
 		)
 		(uuid "f833ab8a-e753-433b-a8e8-ed345a9ae93b")
 	)
+	(hierarchical_label "RSTBTN"
+		(shape input)
+		(at 151.13 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "022e24d8-6568-4864-bb34-a799882d99d4")
+	)
 	(hierarchical_label "5V"
 		(shape input)
 		(at 36.83 99.06 90)
@@ -5038,6 +5131,17 @@
 			(justify right)
 		)
 		(uuid "3046edc1-f598-43a8-b687-5eabf3aaf767")
+	)
+	(hierarchical_label "IORC"
+		(shape input)
+		(at 151.13 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "360df6ce-c2f2-498e-8428-859b6c72edb9")
 	)
 	(hierarchical_label "PCLK"
 		(shape input)
@@ -5215,6 +5319,17 @@
 		)
 		(uuid "a5cef84e-7bc1-4473-be85-49e2bdee438e")
 	)
+	(hierarchical_label "IOWC"
+		(shape input)
+		(at 151.13 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a63d5743-8c60-45a6-af46-bc0b1b417411")
+	)
 	(hierarchical_label "ISA1_IRQ"
 		(shape input)
 		(at 251.46 50.8 0)
@@ -5283,6 +5398,17 @@
 	)
 	(hierarchical_label "5V"
 		(shape input)
+		(at 172.72 115.57 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d030f9a4-3439-4f0a-bd7f-edcfb8d69634")
+	)
+	(hierarchical_label "5V"
+		(shape input)
 		(at 15.24 53.34 90)
 		(effects
 			(font
@@ -5291,17 +5417,6 @@
 			(justify left)
 		)
 		(uuid "d279c58c-f390-4fe7-9453-627241f0810c")
-	)
-	(hierarchical_label "RTL_IRQ"
-		(shape input)
-		(at 251.46 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d4ecd167-b145-4c08-bf8c-bcdec9ff68bc")
 	)
 	(hierarchical_label "ISA2_IRQ"
 		(shape input)
@@ -7313,6 +7428,122 @@
 			(project "scarlet-8088"
 				(path "/6bf7a8bc-eb70-43f6-b16b-1b538dd0d96d/c2b4fe32-c8e2-4470-a0ad-251842fa1d08"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 115.57)
+		(size 38.1 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "dd4a8a14-bf0c-4089-8fa4-4832b31eeb41")
+		(property "Sheetname" "RJ45 Ethernet"
+			(at 151.13 114.8584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io_ethernet.kicad_sch"
+			(at 151.13 147.9046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V" input
+			(at 172.72 115.57 90)
+			(uuid "e1342cf3-8e37-452c-9a5a-62b5b7e3b318")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IORC" input
+			(at 151.13 121.92 180)
+			(uuid "b1b7ea62-e820-43e9-9566-5b5fad3f7e71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IOWC" input
+			(at 151.13 124.46 180)
+			(uuid "45cb50eb-8354-4140-9ac7-4358e55922e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RSTBTN" input
+			(at 151.13 127 180)
+			(uuid "8a5f4534-6330-4b80-b916-7054f8a6230e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RTL_IRQ" output
+			(at 151.13 129.54 180)
+			(uuid "e94ed349-579c-445f-b9db-e14a361dd4e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{ADDRESS_BUS}" bidirectional
+			(at 151.13 137.16 180)
+			(uuid "50749658-e1e9-4784-8e62-1d93689bf3de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{DATA_BUS}" bidirectional
+			(at 151.13 139.7 180)
+			(uuid "4e9e3bcf-fa30-4170-8ce0-863f7caa707c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "scarlet-8088"
+				(path "/6bf7a8bc-eb70-43f6-b16b-1b538dd0d96d/c2b4fe32-c8e2-4470-a0ad-251842fa1d08"
+					(page "9")
 				)
 			)
 		)
