@@ -7045,16 +7045,6 @@
 		)
 		(uuid "2001e0b9-e6dd-48b0-8d09-0e3d4e9f08e2")
 	)
-	(label "CLK"
-		(at 167.64 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2172a0ac-01c3-4477-b7f1-c40c5cffd9c8")
-	)
 	(label "S0"
 		(at 87.63 149.86 180)
 		(effects
@@ -7204,16 +7194,6 @@
 			(justify left bottom)
 		)
 		(uuid "4067eb86-64bc-4dbe-bc97-14b2aeb96f4b")
-	)
-	(label "CLK"
-		(at 226.06 36.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4238a848-7072-4666-9738-f635084849d4")
 	)
 	(label "d4"
 		(at 125.73 102.87 180)
@@ -7675,16 +7655,6 @@
 		)
 		(uuid "97c105c0-b036-4c8b-8b13-fcb898479c77")
 	)
-	(label "ALE"
-		(at 22.86 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "98279f07-d9eb-4afe-96cc-a84690921d4f")
-	)
 	(label "ad7"
 		(at 213.36 63.5 180)
 		(effects
@@ -7975,16 +7945,6 @@
 		)
 		(uuid "d2537c87-45f0-4d42-aab4-94105252f14c")
 	)
-	(label "ALE"
-		(at 149.86 175.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d3228289-b0a8-4969-b5ea-131112f4346d")
-	)
 	(label "a10"
 		(at 41.91 85.09 0)
 		(effects
@@ -8044,16 +8004,6 @@
 			(justify left bottom)
 		)
 		(uuid "d8ef6420-de79-451c-8207-eaf62fb7f2e2")
-	)
-	(label "CLK"
-		(at 135.89 36.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "db1028a4-e293-4492-8ac1-cd74270dc318")
 	)
 	(label "TEST"
 		(at 266.7 110.49 0)
@@ -8377,6 +8327,17 @@
 		)
 		(uuid "9873e094-8ae1-483f-80f0-47e7fcabfba0")
 	)
+	(hierarchical_label "ALE"
+		(shape input)
+		(at 149.86 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98e0b064-47fc-4af5-a964-af7b3791dc1f")
+	)
 	(hierarchical_label "MRDC"
 		(shape output)
 		(at 123.19 160.02 0)
@@ -8443,6 +8404,28 @@
 		)
 		(uuid "b9ddfb96-1bca-4415-8d5c-f6fe05b25c30")
 	)
+	(hierarchical_label "CLK"
+		(shape output)
+		(at 167.64 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "baa18b7d-4694-42c8-9c92-e5b422b148a2")
+	)
+	(hierarchical_label "ALE"
+		(shape input)
+		(at 22.86 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bb2f1a8a-d54c-42f7-a05e-48dfb3d481e7")
+	)
 	(hierarchical_label "5V"
 		(shape input)
 		(at 128.27 83.82 90)
@@ -8475,6 +8458,17 @@
 			(justify left)
 		)
 		(uuid "c61dff14-58c0-4e11-9778-15496acc4c5e")
+	)
+	(hierarchical_label "CLK"
+		(shape output)
+		(at 135.89 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cdb59b8b-966a-4c9d-a9ee-03501627ee22")
 	)
 	(hierarchical_label "5V"
 		(shape input)
@@ -8519,6 +8513,17 @@
 			(justify right)
 		)
 		(uuid "ed538bf9-6ed8-4e7b-83e7-dd73036bf3f1")
+	)
+	(hierarchical_label "CLK"
+		(shape output)
+		(at 226.06 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ee7ee92f-a25d-4b9f-957a-83eba7ce116a")
 	)
 	(hierarchical_label "{DATA_BUS}"
 		(shape bidirectional)

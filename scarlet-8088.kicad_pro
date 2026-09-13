@@ -661,7 +661,7 @@
         "uuid": "6bf7a8bc-eb70-43f6-b16b-1b538dd0d96d"
       }
     ],
-    "used_designators": "SW1,F1-2,U1-32,Q1,C1-51,D1,#PWR1-107,Y1-3,J1-7,R1-27,H1-10",
+    "used_designators": "SW1,F1-2,U1-33,Q1,C1-54,D1,#PWR1-114,Y1-3,J1-10,R1-27,H1-10",
     "variants": []
   },
   "sheets": [
@@ -704,6 +704,10 @@
     [
       "63eac1f8-6025-4300-a897-3f5054183afb",
       "IDE"
+    ],
+    [
+      "daa031d2-8734-46da-bc54-5ad80b05c71d",
+      "ISA Slots"
     ]
   ],
   "text_variables": {
