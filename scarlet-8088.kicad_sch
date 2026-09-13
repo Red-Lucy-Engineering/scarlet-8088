@@ -2652,16 +2652,6 @@
 				(justify right)
 			)
 		)
-		(pin "ISA0_IRQ" input
-			(at 48.26 93.98 0)
-			(uuid "1e2e8080-8aca-4453-b326-2d3eddbea096")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "ISA1_IRQ" input
 			(at 48.26 96.52 0)
 			(uuid "fc5291e4-c25f-4ce4-a6b7-84c3c12ba908")
@@ -2692,16 +2682,6 @@
 				(justify right)
 			)
 		)
-		(pin "PS2_IRQ" input
-			(at 48.26 104.14 0)
-			(uuid "8d5055d6-5650-405f-875b-f67b098338c1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "RTL_IRQ" input
 			(at 48.26 106.68 0)
 			(uuid "26ce1bf8-0cad-4401-9aa3-3d1eaad1bf15")
@@ -2715,6 +2695,26 @@
 		(pin "PCLK" input
 			(at 48.26 111.76 0)
 			(uuid "4c51fdd1-cf53-49c1-baf1-132d1575b393")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PS2_KBD_IRQ" input
+			(at 48.26 86.36 0)
+			(uuid "6626e8e4-d629-44af-93f6-2ccbcc05430f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PS2_MOUSE_IRQ" input
+			(at 48.26 88.9 0)
+			(uuid "7b2627d4-8bcf-499f-a594-5f64ce2974ee")
 			(effects
 				(font
 					(size 1.27 1.27)
