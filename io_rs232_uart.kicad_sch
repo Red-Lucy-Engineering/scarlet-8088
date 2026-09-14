@@ -3025,12 +3025,44 @@
 		(uuid "e5b223e3-c23f-4335-83d5-cbb5373c7ac8")
 	)
 	(no_connect
+		(at 109.22 132.08)
+		(uuid "192ab574-8403-4ec5-a11b-eb3010f31c1e")
+	)
+	(no_connect
 		(at 243.84 87.63)
 		(uuid "2745ab45-8e24-400d-8084-1cfd2167a663")
 	)
 	(no_connect
+		(at 109.22 106.68)
+		(uuid "2ed21381-df27-4dda-bcb2-a251e6f611f8")
+	)
+	(no_connect
+		(at 109.22 144.78)
+		(uuid "4685d0c6-5e80-44f3-bffb-47b459fee2a5")
+	)
+	(no_connect
+		(at 58.42 144.78)
+		(uuid "64905319-5c87-4a08-a494-eb9db79e43f0")
+	)
+	(no_connect
 		(at 209.55 73.66)
 		(uuid "8c5ac26e-e5e5-4a1d-a3e9-c3b695717b79")
+	)
+	(no_connect
+		(at 109.22 99.06)
+		(uuid "ace35680-0e83-4a2e-96fb-afa5a9d77303")
+	)
+	(no_connect
+		(at 109.22 129.54)
+		(uuid "c55ff240-e712-4ddb-86dc-abc296f803db")
+	)
+	(no_connect
+		(at 109.22 149.86)
+		(uuid "ca9d0be2-ef97-418d-ad6e-e3e1d2b40419")
+	)
+	(no_connect
+		(at 109.22 134.62)
+		(uuid "cf4002ab-78ac-460a-8aac-f12be7d24580")
 	)
 	(bus_entry
 		(at 25.4 33.02)
@@ -4554,7 +4586,7 @@
 		)
 		(uuid "f8afcc00-e3ca-44e7-955f-c78d31824c2a")
 	)
-	(hierarchical_label "{ADDRESS_BUS}"
+	(hierarchical_label "addr[0..19]"
 		(shape bidirectional)
 		(at 30.48 55.88 0)
 		(effects
@@ -4609,7 +4641,7 @@
 		)
 		(uuid "5f70cfcc-e37e-43f4-b07f-96cb89f96e5e")
 	)
-	(hierarchical_label "{ADDRESS_BUS}"
+	(hierarchical_label "addr[0..19]"
 		(shape bidirectional)
 		(at 49.53 109.22 180)
 		(effects
@@ -4686,7 +4718,7 @@
 		)
 		(uuid "dbebb74c-888b-45d9-8ded-6568cf74c5ab")
 	)
-	(hierarchical_label "{DATA_BUS}"
+	(hierarchical_label "d[0..7]"
 		(shape bidirectional)
 		(at 53.34 99.06 180)
 		(effects

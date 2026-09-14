@@ -3592,6 +3592,14 @@
 		(uuid "05e12d7e-9754-49f4-9579-242398bc3f7a")
 	)
 	(no_connect
+		(at 29.21 172.72)
+		(uuid "1b7f7125-a7b1-494d-83e9-3f297625c963")
+	)
+	(no_connect
+		(at 29.21 175.26)
+		(uuid "22ed3323-6fc3-425b-beef-e70df3c51684")
+	)
+	(no_connect
 		(at 240.03 99.06)
 		(uuid "27905c31-e925-4736-888b-4a6f377d1584")
 	)
@@ -3610,6 +3618,10 @@
 	(no_connect
 		(at 227.33 93.98)
 		(uuid "721345f6-8727-42ea-841f-41acaad4b678")
+	)
+	(no_connect
+		(at 64.77 165.1)
+		(uuid "8d5db64e-d6f0-4d36-a5a9-4f3c9ec24985")
 	)
 	(no_connect
 		(at 240.03 96.52)
@@ -6547,7 +6559,7 @@
 		)
 		(uuid "3c9bf059-2da0-4821-b64b-e565ff534675")
 	)
-	(hierarchical_label "{IDE_BUS}"
+	(hierarchical_label "IDE_D[0..15]"
 		(shape bidirectional)
 		(at 233.68 46.99 90)
 		(effects
@@ -6613,7 +6625,7 @@
 		)
 		(uuid "6eebe80d-428c-45e3-bfc2-714348a72956")
 	)
-	(hierarchical_label "{ADDRESS_BUS}"
+	(hierarchical_label "addr[0..19]"
 		(shape bidirectional)
 		(at 21.59 146.05 0)
 		(effects
@@ -6646,7 +6658,7 @@
 		)
 		(uuid "7e7ed758-a426-4090-9749-420646ee9a2d")
 	)
-	(hierarchical_label "{DATA_BUS}"
+	(hierarchical_label "d[0..7]"
 		(shape bidirectional)
 		(at 194.31 142.24 0)
 		(effects
@@ -6657,7 +6669,7 @@
 		)
 		(uuid "83e23509-bdc4-4dd1-9f2e-6b7a35dd8b7b")
 	)
-	(hierarchical_label "{ADDRESS_BUS}"
+	(hierarchical_label "addr[0..19]"
 		(shape bidirectional)
 		(at 218.44 78.74 180)
 		(effects
@@ -6679,7 +6691,7 @@
 		)
 		(uuid "9f9a3c4f-1dce-45c7-8877-a3194a21a4b8")
 	)
-	(hierarchical_label "{DATA_BUS}"
+	(hierarchical_label "d[0..7]"
 		(shape bidirectional)
 		(at 63.5 137.16 180)
 		(effects
@@ -6701,7 +6713,7 @@
 		)
 		(uuid "a446b62c-9606-4c68-a820-c713979a85e0")
 	)
-	(hierarchical_label "{ADDRESS_BUS}"
+	(hierarchical_label "addr[0..19]"
 		(shape bidirectional)
 		(at 29.21 43.18 180)
 		(effects
@@ -6712,7 +6724,7 @@
 		)
 		(uuid "a84a95fa-7fc1-4225-a46c-0eaac046ea69")
 	)
-	(hierarchical_label "{IDE_BUS}"
+	(hierarchical_label "IDE_D[0..15]"
 		(shape bidirectional)
 		(at 133.35 138.43 180)
 		(effects

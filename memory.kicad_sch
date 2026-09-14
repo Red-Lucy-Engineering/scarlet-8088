@@ -3667,8 +3667,48 @@
 		(uuid "e111e20f-fb5f-4f35-936e-8e690ed1929b")
 	)
 	(no_connect
+		(at 276.86 106.68)
+		(uuid "0548bd7b-11a5-4187-9d5a-662df62fc35c")
+	)
+	(no_connect
+		(at 276.86 109.22)
+		(uuid "06450baf-da61-46ad-a003-6cbf347d8a44")
+	)
+	(no_connect
+		(at 231.14 73.66)
+		(uuid "0b2b7f30-acef-43f1-a705-0ddcca860498")
+	)
+	(no_connect
+		(at 220.98 106.68)
+		(uuid "0cf88101-1e9e-449d-81dc-fb158af50524")
+	)
+	(no_connect
+		(at 205.74 45.72)
+		(uuid "1d00a64c-d166-4e52-8fd5-beae90ae8b9f")
+	)
+	(no_connect
+		(at 276.86 101.6)
+		(uuid "249b0780-7326-4c90-84b2-74204f715607")
+	)
+	(no_connect
 		(at 25.4 48.26)
 		(uuid "2d6401ce-baa6-4ebf-8886-38bdcce02365")
+	)
+	(no_connect
+		(at 276.86 104.14)
+		(uuid "3019a5f0-830b-4cab-b713-eda133b33fec")
+	)
+	(no_connect
+		(at 231.14 68.58)
+		(uuid "37c56f52-598e-4475-b364-0713728b9b40")
+	)
+	(no_connect
+		(at 231.14 66.04)
+		(uuid "4058b436-c3fe-4976-b0e3-902c5060a059")
+	)
+	(no_connect
+		(at 231.14 71.12)
+		(uuid "4e305f9e-f6d6-4367-aba4-5b20aa34637f")
 	)
 	(no_connect
 		(at 25.4 45.72)
@@ -3677,6 +3717,22 @@
 	(no_connect
 		(at 25.4 50.8)
 		(uuid "59a2c3cd-e610-43e7-a410-124064025cf8")
+	)
+	(no_connect
+		(at 120.65 55.88)
+		(uuid "5f6adcd8-1a78-4578-a373-7cb7443a2c99")
+	)
+	(no_connect
+		(at 231.14 76.2)
+		(uuid "679e0274-b925-48c7-a811-7490c6a7c6e3")
+	)
+	(no_connect
+		(at 205.74 35.56)
+		(uuid "70888cb6-73a4-4ff6-af1e-eb4c21fa121d")
+	)
+	(no_connect
+		(at 120.65 53.34)
+		(uuid "80e8d31a-e505-41dd-a427-295391ce53e5")
 	)
 	(no_connect
 		(at 25.4 55.88)
@@ -3691,8 +3747,24 @@
 		(uuid "8ee63b82-ae6e-4e94-ae23-bb71be122606")
 	)
 	(no_connect
+		(at 220.98 101.6)
+		(uuid "a1ba0642-e6a5-4b65-8bd7-102e1cba6af1")
+	)
+	(no_connect
 		(at 60.96 45.72)
 		(uuid "a8fc5d92-2386-4ff8-98fc-bdae7e288516")
+	)
+	(no_connect
+		(at 205.74 43.18)
+		(uuid "af9b924d-ff4e-451a-9a46-6d017d3e1533")
+	)
+	(no_connect
+		(at 205.74 48.26)
+		(uuid "c04b225b-c6d0-46f0-bab9-3dfb06841797")
+	)
+	(no_connect
+		(at 220.98 99.06)
+		(uuid "c2ce070d-656c-460a-88bb-3a0face26507")
 	)
 	(no_connect
 		(at 25.4 58.42)
@@ -3703,8 +3775,20 @@
 		(uuid "d052b860-05b8-4afa-987c-4641f5fbad0d")
 	)
 	(no_connect
+		(at 231.14 78.74)
+		(uuid "d63b7bde-1f62-4aac-bfc9-b9d78e140b10")
+	)
+	(no_connect
 		(at 60.96 48.26)
 		(uuid "e778d4d2-3316-4aaa-bf5a-7ccd4c264af4")
+	)
+	(no_connect
+		(at 220.98 104.14)
+		(uuid "f458be64-d329-4db2-97f4-423994615f72")
+	)
+	(no_connect
+		(at 205.74 38.1)
+		(uuid "ff174217-80ec-4a85-855b-c8e063999a85")
 	)
 	(bus_entry
 		(at 182.88 109.22)
@@ -7046,7 +7130,7 @@
 		)
 		(uuid "00f53b96-9e31-4840-95af-e12e160f06f8")
 	)
-	(hierarchical_label "{DATA_BUS}"
+	(hierarchical_label "d[0..7]"
 		(shape bidirectional)
 		(at 214.63 135.89 0)
 		(effects
@@ -7090,7 +7174,7 @@
 		)
 		(uuid "493608b7-1b7a-4bb1-bc2a-1ce417969942")
 	)
-	(hierarchical_label "{DATA_BUS}"
+	(hierarchical_label "d[0..7]"
 		(shape bidirectional)
 		(at 119.38 101.6 0)
 		(effects
@@ -7200,7 +7284,7 @@
 		)
 		(uuid "94c07bb9-eef9-40e9-b170-2f7cd3e5eb8f")
 	)
-	(hierarchical_label "{DATA_BUS}"
+	(hierarchical_label "d[0..7]"
 		(shape bidirectional)
 		(at 165.1 109.22 270)
 		(effects
@@ -7244,7 +7328,7 @@
 		)
 		(uuid "bcf07693-bd42-49ec-85a9-5c63edd45c92")
 	)
-	(hierarchical_label "{ADDRESS_BUS}"
+	(hierarchical_label "addr[0..19]"
 		(shape bidirectional)
 		(at 77.47 24.13 0)
 		(effects
@@ -7277,7 +7361,7 @@
 		)
 		(uuid "dfb175a4-8015-4774-b3a2-9facc61d116e")
 	)
-	(hierarchical_label "{ADDRESS_BUS}"
+	(hierarchical_label "addr[0..19]"
 		(shape bidirectional)
 		(at 180.34 100.33 0)
 		(effects
@@ -7332,7 +7416,7 @@
 		)
 		(uuid "f028a68c-4b69-4777-8569-5b4c1d546f73")
 	)
-	(hierarchical_label "{ADDRESS_BUS}"
+	(hierarchical_label "addr[0..19]"
 		(shape bidirectional)
 		(at 214.63 87.63 0)
 		(effects

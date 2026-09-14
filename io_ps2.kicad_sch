@@ -6854,7 +6854,7 @@
 		)
 		(uuid "5c5f0ba9-9fa7-4202-b5b6-381c7228bd04")
 	)
-	(hierarchical_label "{ADDRESS_BUS}"
+	(hierarchical_label "addr[0..19]"
 		(shape bidirectional)
 		(at 63.5 66.04 180)
 		(effects
@@ -6942,7 +6942,7 @@
 		)
 		(uuid "dbddb70e-2a60-4501-96af-7b4e0396d0d5")
 	)
-	(hierarchical_label "{DATA_BUS}"
+	(hierarchical_label "d[0..7]"
 		(shape bidirectional)
 		(at 66.04 96.52 180)
 		(effects

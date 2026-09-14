@@ -1429,7 +1429,7 @@
 		)
 		(uuid "4fb727b2-fc3a-4cd2-ae7d-d9ef0a462478")
 	)
-	(hierarchical_label "{ADDRESS_BUS}"
+	(hierarchical_label "addr[0..19]"
 		(shape bidirectional)
 		(at 118.11 83.82 180)
 		(effects
@@ -1495,7 +1495,7 @@
 		)
 		(uuid "eec0beb9-ee51-4ed8-809b-fdc4819b9a58")
 	)
-	(hierarchical_label "{DATA_BUS}"
+	(hierarchical_label "d[0..7]"
 		(shape bidirectional)
 		(at 121.92 41.91 180)
 		(effects

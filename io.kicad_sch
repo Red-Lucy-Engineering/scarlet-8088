@@ -2990,12 +2990,6 @@
 		(uuid "66a78537-03f1-4a2c-888e-a6688945f3ef")
 	)
 	(junction
-		(at 104.14 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ad07fa3-c522-4169-8270-7c8e52ba6564")
-	)
-	(junction
 		(at 162.56 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3128,20 +3122,68 @@
 		(uuid "fe2e7d8b-549e-440c-b1f8-240068fea238")
 	)
 	(no_connect
+		(at 218.44 109.22)
+		(uuid "0424c2ad-1ed0-4cb1-b17b-912b7a5b3b8a")
+	)
+	(no_connect
+		(at 139.7 97.79)
+		(uuid "2cfbe3a6-b4cc-4e8a-9cb8-79a864b6bf60")
+	)
+	(no_connect
+		(at 139.7 72.39)
+		(uuid "2d2306b6-07a6-45d4-82b2-8c9fa0f98674")
+	)
+	(no_connect
+		(at 139.7 62.23)
+		(uuid "3617c934-9a59-43d9-b358-a807dbe02ab3")
+	)
+	(no_connect
+		(at 139.7 82.55)
+		(uuid "59e52c29-82ed-4486-97d8-8dc3d5ccd292")
+	)
+	(no_connect
 		(at 69.85 63.5)
 		(uuid "5af3a15e-a9a3-4090-bdb2-3bc6645c02d2")
+	)
+	(no_connect
+		(at 139.7 64.77)
+		(uuid "5f1f2fa4-d08d-429f-859e-cb4f660d50fd")
+	)
+	(no_connect
+		(at 139.7 74.93)
+		(uuid "5fdce249-bddc-4708-9d6c-ca8e715ba01e")
 	)
 	(no_connect
 		(at 251.46 73.66)
 		(uuid "68dacb29-37e6-4d77-baa2-2cfa770e5233")
 	)
 	(no_connect
+		(at 139.7 85.09)
+		(uuid "763c74f2-4817-4d83-9dd9-11a7d13042c3")
+	)
+	(no_connect
 		(at 69.85 60.96)
 		(uuid "81119b19-d2ab-4429-8109-37d1c404e3cf")
 	)
 	(no_connect
+		(at 139.7 69.85)
+		(uuid "89a5d516-f378-4ce5-a56e-c45768a57f16")
+	)
+	(no_connect
 		(at 69.85 66.04)
 		(uuid "9524640a-43c7-48f4-99d9-77646a9fa6dd")
+	)
+	(no_connect
+		(at 54.61 167.64)
+		(uuid "a3640ee2-97bd-40c2-998a-ba2dcebb8bf4")
+	)
+	(no_connect
+		(at 139.7 92.71)
+		(uuid "a74d9d34-c8a0-4bb8-b081-d48353b5f15a")
+	)
+	(no_connect
+		(at 139.7 67.31)
+		(uuid "a8ec4528-9e28-4594-8c9c-9fbce507bfb1")
 	)
 	(no_connect
 		(at 251.46 68.58)
@@ -3150,6 +3192,38 @@
 	(no_connect
 		(at 251.46 71.12)
 		(uuid "b7ab9b52-5d95-4ed5-a206-996c2edbecfc")
+	)
+	(no_connect
+		(at 170.18 107.95)
+		(uuid "bfffcf51-e4a5-4380-9d14-b709c61a07ff")
+	)
+	(no_connect
+		(at 139.7 77.47)
+		(uuid "cad27fd1-d24a-44a3-a393-2b017d52b773")
+	)
+	(no_connect
+		(at 76.2 48.26)
+		(uuid "d0e288fd-d0cd-4212-b9c4-24886785b442")
+	)
+	(no_connect
+		(at 54.61 172.72)
+		(uuid "dac12f53-41f4-4902-a4b0-e11126e0f1a5")
+	)
+	(no_connect
+		(at 139.7 87.63)
+		(uuid "e74aa27e-c70c-44f1-8767-15abcfdae760")
+	)
+	(no_connect
+		(at 139.7 95.25)
+		(uuid "ed3f9235-d7eb-4a35-af45-da10b2ef9b95")
+	)
+	(no_connect
+		(at 139.7 100.33)
+		(uuid "f1b0f784-bfc1-4ac5-9b91-dc0af623a53e")
+	)
+	(no_connect
+		(at 139.7 90.17)
+		(uuid "f3f88b84-e0ab-4181-aee8-0e23479448aa")
 	)
 	(bus_entry
 		(at 100.33 67.31)
@@ -3657,16 +3731,6 @@
 			(type default)
 		)
 		(uuid "345716d9-b35a-49d4-a261-d21dff58c335")
-	)
-	(wire
-		(pts
-			(xy 104.14 72.39) (xy 105.41 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37a203a8-e291-4215-b8dc-131571b308ac")
 	)
 	(wire
 		(pts
@@ -5261,7 +5325,7 @@
 		)
 		(uuid "056d5d2b-1b5b-4d99-a34b-24b9446a82bb")
 	)
-	(hierarchical_label "{DATA_BUS}"
+	(hierarchical_label "d[0..7]"
 		(shape bidirectional)
 		(at 97.79 87.63 180)
 		(effects
@@ -5316,7 +5380,7 @@
 		)
 		(uuid "2ab44495-a511-4d98-a56a-f9415d8a34e0")
 	)
-	(hierarchical_label "{DATA_BUS}"
+	(hierarchical_label "d[0..7]"
 		(shape bidirectional)
 		(at 214.63 34.29 180)
 		(effects
@@ -5591,7 +5655,7 @@
 		)
 		(uuid "8799442e-fb40-4bea-940e-2750bcd82987")
 	)
-	(hierarchical_label "{ADDRESS_BUS}"
+	(hierarchical_label "addr[0..19]"
 		(shape bidirectional)
 		(at 13.97 85.09 270)
 		(effects
@@ -5767,7 +5831,7 @@
 		)
 		(uuid "b24d8056-d628-49e8-914d-42aef20e55a5")
 	)
-	(hierarchical_label "{ADDRESS_BUS}"
+	(hierarchical_label "addr[0..19]"
 		(shape bidirectional)
 		(at 212.09 64.77 180)
 		(effects
@@ -7570,7 +7634,7 @@
 				(justify left)
 			)
 		)
-		(pin "{ADDRESS_BUS}" bidirectional
+		(pin "addr[0..19]" bidirectional
 			(at 105.41 176.53 180)
 			(uuid "023b254d-fa36-45d3-b66f-97778a2798db")
 			(effects
@@ -7580,7 +7644,7 @@
 				(justify left)
 			)
 		)
-		(pin "{DATA_BUS}" bidirectional
+		(pin "d[0..7]" bidirectional
 			(at 105.41 179.07 180)
 			(uuid "4b279502-187a-4172-b369-326658c4e846")
 			(effects
@@ -7686,7 +7750,7 @@
 				(justify right)
 			)
 		)
-		(pin "{ADDRESS_BUS}" bidirectional
+		(pin "addr[0..19]" bidirectional
 			(at 54.61 181.61 0)
 			(uuid "fbd421ec-717e-4c4b-8559-26afbc930f7b")
 			(effects
@@ -7696,7 +7760,7 @@
 				(justify right)
 			)
 		)
-		(pin "{DATA_BUS}" bidirectional
+		(pin "d[0..7]" bidirectional
 			(at 54.61 184.15 0)
 			(uuid "20470551-784b-4443-8cc3-3cfabcb457e9")
 			(effects
@@ -7892,7 +7956,7 @@
 				(justify left)
 			)
 		)
-		(pin "{ADDRESS_BUS}" bidirectional
+		(pin "addr[0..19]" bidirectional
 			(at 170.18 102.87 180)
 			(uuid "cfb2ca20-4509-4dc1-9cf0-b7e0e502140b")
 			(effects
@@ -7902,7 +7966,7 @@
 				(justify left)
 			)
 		)
-		(pin "{DATA_BUS}" bidirectional
+		(pin "d[0..7]" bidirectional
 			(at 170.18 105.41 180)
 			(uuid "122a22fa-56f6-41f1-8abc-80d9f73d8baa")
 			(effects
@@ -7912,7 +7976,7 @@
 				(justify left)
 			)
 		)
-		(pin "{IDE_BUS}" bidirectional
+		(pin "IDE_D[0..15]" bidirectional
 			(at 170.18 107.95 180)
 			(uuid "95d7d1d7-7e98-4e03-b861-d212cf2b2613")
 			(effects
@@ -8018,7 +8082,7 @@
 				(justify right)
 			)
 		)
-		(pin "{ADDRESS_BUS}" bidirectional
+		(pin "addr[0..19]" bidirectional
 			(at 40.64 121.92 0)
 			(uuid "a58de6f4-08a6-4c0b-8603-6f9b84aa5f3d")
 			(effects
@@ -8028,7 +8092,7 @@
 				(justify right)
 			)
 		)
-		(pin "{DATA_BUS}" bidirectional
+		(pin "d[0..7]" bidirectional
 			(at 40.64 124.46 0)
 			(uuid "f9df260d-7744-41f7-a125-0700be780a27")
 			(effects
@@ -8244,7 +8308,7 @@
 				(justify left)
 			)
 		)
-		(pin "{ADDRESS_BUS}" bidirectional
+		(pin "addr[0..19]" bidirectional
 			(at 218.44 151.13 180)
 			(uuid "18fdd38c-586c-4f8e-b46a-eccc6a4834ea")
 			(effects
@@ -8254,7 +8318,7 @@
 				(justify left)
 			)
 		)
-		(pin "{DATA_BUS}" bidirectional
+		(pin "d[0..7]" bidirectional
 			(at 218.44 153.67 180)
 			(uuid "d331972b-ba80-47bb-8a52-d3319145abbb")
 			(effects
@@ -8360,7 +8424,7 @@
 				(justify left)
 			)
 		)
-		(pin "{ADDRESS_BUS}" bidirectional
+		(pin "addr[0..19]" bidirectional
 			(at 119.38 137.16 180)
 			(uuid "50749658-e1e9-4784-8e62-1d93689bf3de")
 			(effects
@@ -8370,7 +8434,7 @@
 				(justify left)
 			)
 		)
-		(pin "{DATA_BUS}" bidirectional
+		(pin "d[0..7]" bidirectional
 			(at 119.38 139.7 180)
 			(uuid "4e9e3bcf-fa30-4170-8ce0-863f7caa707c")
 			(effects
