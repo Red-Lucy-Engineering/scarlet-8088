@@ -51678,6 +51678,29 @@
 		(layer "Edge.Cuts")
 		(uuid "b2e0d981-c2a1-48bb-9ec6-d56de6758941")
 	)
+	(gr_rect
+		(start 295.49 95.45)
+		(end 454.25 110.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill reverse_hatch)
+		(layer "F.Fab")
+		(uuid "295ffc30-8818-4a4c-a516-ea99fc1ac6f8")
+	)
+	(gr_text "REAR IO WINDOW"
+		(at 374.87 102.875 0)
+		(layer "F.Fab")
+		(uuid "49216b63-b7a4-4ea2-bb91-9ee1c0426b97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
 	(dimension
 		(type orthogonal)
 		(layer "F.Fab")
@@ -51947,6 +51970,44 @@
 	(dimension
 		(type orthogonal)
 		(layer "F.Fab")
+		(uuid "5c7da415-e1d6-4995-b0f5-da262f0a318c")
+		(pts
+			(xy 163.51 109.65) (xy 295.49 109.69)
+		)
+		(height -31.47)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "131,98"
+			(at 229.5 77.03 0)
+			(layer "F.Fab")
+			(uuid "5c7da415-e1d6-4995-b0f5-da262f0a318c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.Fab")
 		(uuid "66337234-a525-4e5f-9a89-1e44cdaaedc1")
 		(pts
 			(xy 163.51 99.49) (xy 287.96 99.49)
@@ -52164,6 +52225,44 @@
 			(at 225.735 263.44 0)
 			(layer "F.Fab")
 			(uuid "c00986ae-d259-4fa8-8ca6-cb7e964d4ad4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.Fab")
+		(uuid "c66966fd-3929-48ff-b900-87bbeea21d63")
+		(pts
+			(xy 295.49 109.69) (xy 454.25 110.3)
+		)
+		(height -18.87)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "158,76"
+			(at 374.87 89.67 0)
+			(layer "F.Fab")
+			(uuid "c66966fd-3929-48ff-b900-87bbeea21d63")
 			(effects
 				(font
 					(size 1 1)
