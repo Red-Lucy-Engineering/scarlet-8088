@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "CD74HCT74E D-Type Flip Flop") (type "KiCad") (uri "${KIPRJMOD}/extra/CD74HCT74E/CD74HCT74E.pretty") (options "") (descr ""))
 	(lib (name "SN74HCT08N AND-Gate IC") (type "KiCad") (uri "${KIPRJMOD}/extra/SN74HCT08N/SN74HCT08N.pretty") (options "") (descr ""))
+	(lib (name "minidin_6_ps2_pcb_mount") (type "KiCad") (uri "${KIPRJMOD}/extra/Mini-DIN6-Footprint/minidin_6_ps2_pcb_mount.pretty") (options "") (descr ""))
 )

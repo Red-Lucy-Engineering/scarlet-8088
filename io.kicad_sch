@@ -6721,7 +6721,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx02_Piano_10.8x6.64mm_W7.62mm_P2.54mm"
+		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx08_Piano_10.8x21.88mm_W7.62mm_P2.54mm"
 			(at 172.72 46.99 0)
 			(hide yes)
 			(show_name no)

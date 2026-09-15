@@ -8645,7 +8645,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_DIN:DIN41612_M-invers_3x2+10_Female_Horizontal_THT"
+		(property "Footprint" "minidin_6_ps2_pcb_mount:minidin_6_ps2_pcb_mount"
 			(at 167.64 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -9141,7 +9141,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_DIN:DIN41612_M-invers_3x2+10_Female_Horizontal_THT"
+		(property "Footprint" "minidin_6_ps2_pcb_mount:minidin_6_ps2_pcb_mount"
 			(at 167.64 73.66 0)
 			(hide yes)
 			(show_name no)
