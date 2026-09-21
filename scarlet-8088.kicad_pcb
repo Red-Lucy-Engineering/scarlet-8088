@@ -1534,6 +1534,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_Cylinder-6.3x32mm_Schurter_0031-8002_Horizontal_Open.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.55 0.55 0.55)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 		(layer "F.Cu")
@@ -4328,6 +4339,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x10_P2.54mm_Vertical.step"
+			(offset
+				(xyz 0.5 0 0)
+			)
+			(scale
+				(xyz 2.1 1.6 1.6)
+			)
+			(rotate
+				(xyz -0 -0 -90)
+			)
+		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_2x31_P2.54mm_Vertical"
 		(locked yes)
@@ -6527,6 +6549,17 @@
 			(uuid "0e89d0b9-e39d-4dcf-9551-fe77e3ba6488")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/extra/CD74HCT10E/CD74HCT10E/CD74HCT10E.pretty/CD74HCT10E.stp"
+			(offset
+				(xyz -3.75 7.5 2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Package_DIP:DIP-40_W15.24mm_Socket"
 		(layer "F.Cu")
@@ -21553,15 +21586,15 @@
 			(uuid "e0d8e12d-6372-407b-b550-e000efd41e89")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_Clip-5x20mm_Eaton_1A5601-01_Inline_P20.80x6.76mm_D1.70mm_Horizontal.step"
+		(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_Cylinder-6.3x32mm_Schurter_0031-8002_Horizontal_Open.step"
 			(offset
 				(xyz 0 0 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 0.55 0.55 0.55)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -23324,6 +23357,17 @@
 			(uuid "53c1157d-ecbc-4423-a865-76d7638f53da")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/extra/SN74HCT138N/SN74HCT138N.pretty/SN74HCT138N.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 		(layer "F.Cu")
@@ -24249,6 +24293,17 @@
 			(uuid "d623b595-98ad-4908-bee2-09fe07cd170f")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/extra/SN74HCT08N/SN74HCT08N.pretty/SN74HCT08N.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
 		(locked yes)
@@ -26198,6 +26253,17 @@
 			(uuid "0aece3c9-7fdb-4e9c-90ca-1343e34daf5a")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/extra/SN74HCT245N/SN74HCT245N/SN74HCT245N.pretty/SN74HCT245N.stp"
+			(offset
+				(xyz -3.75 11.5 2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Package_DIP:DIP-40_W15.24mm_Socket"
 		(placed yes)
@@ -28254,6 +28320,17 @@
 			(uuid "059a31fa-dbbd-4b6f-a18e-54c27bddb47c")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/extra/CD74HCT74E/CD74HCT74E.pretty/CD74HCT74E.step"
+			(offset
+				(xyz -3.75 7.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "SN74HCT138N Decoder/DEMUX:DIP794W45P254L1969H508Q16"
 		(placed yes)
@@ -28699,6 +28776,17 @@
 			(uuid "d5ee74db-7759-4e2f-9983-3b7eceb05ad4")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/extra/SN74HCT138N/SN74HCT138N.pretty/SN74HCT138N.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 		(placed yes)
@@ -31299,6 +31387,17 @@
 			(uuid "a87a71fa-7d62-4b85-80fa-6447337a537a")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/extra/SN74HCT32N/SN74HCT32N.pretty/SN74HCT32N.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "SN74HCT08N AND-Gate IC:DIP794W45P254L1969H508Q14"
 		(placed yes)
@@ -31739,6 +31838,17 @@
 			(uuid "fa11d08f-078c-4f87-aac1-6894925d857a")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/extra/SN74HCT08N/SN74HCT08N.pretty/SN74HCT08N.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 		(layer "F.Cu")
@@ -34485,6 +34595,17 @@
 			(uuid "368e004e-c22e-42b4-93d4-9972551ef83a")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/extra/CD74HCT14E/CD74HCT14E/CD74HCT14E.pretty/CD74HCT14E.stp"
+			(offset
+				(xyz -3.75 7.5 2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_2x31_P2.54mm_Vertical"
 		(locked yes)
@@ -38125,6 +38246,17 @@
 			(uuid "82fda23e-b9fc-4504-b77c-ccad1cf8a971")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/extra/SN74HCT245N/SN74HCT245N/SN74HCT245N.pretty/SN74HCT245N.stp"
+			(offset
+				(xyz -3.75 11.5 2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Package_DIP:DIP-24_W15.24mm_Socket"
 		(placed yes)
@@ -40512,6 +40644,17 @@
 			(uuid "71a34a8c-0ec4-4170-8346-c98364511245")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/extra/SN74HCT245N/SN74HCT245N/SN74HCT245N.pretty/SN74HCT245N.stp"
+			(offset
+				(xyz -3.75 11.5 2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 		(layer "F.Cu")
@@ -47467,6 +47610,17 @@
 			(uuid "aaaf33a8-f09b-46f3-ad42-05be2eb4f200")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/extra/SN74HCT573N/SN74HCT573N.pretty/SN74HCT573N.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 		(layer "F.Cu")
@@ -54289,6 +54443,17 @@
 			(uuid "9e720eed-179a-4ec3-991a-abeccea1b245")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/extra/CD74HCT30E/CD74HCT30E/footprints.pretty/CD74HCT30E.stp"
+			(offset
+				(xyz -3.75 7.5 2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Package_DIP:DIP-20_W7.62mm_Socket"
 		(placed yes)
@@ -57183,6 +57348,17 @@
 			(uuid "e16a0d60-5029-4fd4-9aaf-ca33503d9ad2")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/extra/CD74HCT21E/KiCADv6/footprints.pretty/N0014A.stp"
+			(offset
+				(xyz -3.75 7.5 2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 		(layer "F.Cu")
