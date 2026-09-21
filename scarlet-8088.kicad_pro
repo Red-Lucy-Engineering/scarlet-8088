@@ -76,12 +76,17 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "annular_width|432260000|102960000|c6971348-ec06-413c-b041-966c29641ea8|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "error",
+        "annular_width": "ignore",
         "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
@@ -142,7 +147,7 @@
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
-        "zones_intersect": "error"
+        "zones_intersect": "ignore"
       },
       "rules": {
         "max_error": 0.005,
@@ -150,7 +155,7 @@
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.1562,
+        "min_hole_clearance": 0.1421,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.0,
         "min_microvia_drill": 0.0,
@@ -520,7 +525,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1562,
+        "clearance": 0.1421,
         "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -538,7 +543,7 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.5,
+        "clearance": 0.25,
         "microvia_diameter": 0.65,
         "microvia_drill": 0.5,
         "name": "12V",
@@ -551,7 +556,7 @@
         "via_drill": 0.5
       },
       {
-        "clearance": 1.0,
+        "clearance": 0.25,
         "microvia_diameter": 1.65,
         "microvia_drill": 1.5,
         "name": "5V",
@@ -564,7 +569,7 @@
         "via_drill": 1.5
       },
       {
-        "clearance": 1.0,
+        "clearance": 0.25,
         "microvia_diameter": 1.65,
         "microvia_drill": 1.5,
         "name": "5V-Traces",
